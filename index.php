@@ -570,3 +570,4 @@ include 'includes/header.php';
 
 <?php include 'includes/footer.php'; ?>
 <!-- Professional images integrated -->
+

@@ -15,8 +15,6 @@ include '../includes/header.php';
             <div class="game-hero-content">
                 <h1 class="game-title-main">🎴 BLACKJACK</h1>
                 <p class="game-tagline">Beat the Dealer to 21</p>
-                <div class="game-rating">
-                </div>
                 <p class="game-description">
                     The classic card game of strategy and skill. Get closer to 21 than the dealer without going over. 
                     Hit or stand strategically to earn credits and test your card sense.

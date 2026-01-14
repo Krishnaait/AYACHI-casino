@@ -15,8 +15,6 @@ include '../includes/header.php';
             <div class="game-hero-content">
                 <h1 class="game-title-main">🎰 SLOT MACHINES</h1>
                 <p class="game-tagline">Spin to Win Big Credits</p>
-                <div class="game-rating">
-                </div>
                 <p class="game-description">
                     Experience the classic excitement of slot machines. Match symbols on the reels to earn credits. 
                     Simple gameplay with exciting payouts makes this a favorite among casino enthusiasts.

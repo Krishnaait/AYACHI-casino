@@ -8,7 +8,7 @@ include '../includes/header.php';
 ?>
 
     <!-- GAMES PAGE WRAPPER -->
-    <div class="games-page-wrapper">
+    <div class="games-page-wrapper" style="display: flex; flex-direction: column; min-height: calc(100vh - 100px);">
         
         <!-- PAGE HERO SECTION -->
         <div class="page-hero-section">
@@ -133,7 +133,7 @@ include '../includes/header.php';
 
     <style>
         .games-page-wrapper {
-            min-height: 100vh;
+            flex: 1;
             background: linear-gradient(135deg, #1a4d3e 0%, #0d2a22 100%);
             padding-bottom: 2rem;
         }

@@ -4,42 +4,9 @@
  * Professional Casino Banner with Roulette, Cards, Chips, Slots
  * Free-to-Play Casino Games
  */
+$page_title = "AYACHI - Premium Casino Games";
+include 'includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AYACHI - Premium Casino Games | Play for Free</title>
-    <meta name="description" content="Experience premium casino games for free. Play Slots, Roulette, Blackjack, and Poker with no real money involved. Pure entertainment with realistic casino mechanics.">
-    <meta name="keywords" content="casino games, free to play, slots, roulette, blackjack, poker, online casino">
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;600;700&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
-    
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="/public/css/style.css">
-    <link rel="stylesheet" href="/public/css/banner.css">
-    <link rel="stylesheet" href="/public/css/home.css">
-</head>
-<body>
-    <!-- Header & Navigation -->
-    <header>
-        <div class="container">
-            <div class="logo">
-                <div class="logo-icon">AY</div>
-                <span>AYACHI</span>
-            </div>
-            <nav>
-                <a href="/">HOME</a>
-                <a href="#games">GAMES</a>
-                <a href="#features">FEATURES</a>
-                <a href="/pages/contact-us.php">CONTACT</a>
-            </nav>
-        </div>
-    </header>
 
     <!-- Professional Casino Banner -->
     <section class="hero-banner">
@@ -48,18 +15,55 @@
             <div class="banner-left">
                 <!-- Roulette Wheel -->
                 <div class="roulette-wheel">
-                    <div class="wheel-outer">
-                        <div class="wheel-center"></div>
-                        <div class="wheel-pointer"></div>
-                    </div>
+                    <svg viewBox="0 0 200 200" class="wheel-svg">
+                        <defs>
+                            <style>
+                                .wheel-segment-red { fill: #ff0000; }
+                                .wheel-segment-black { fill: #000000; }
+                            </style>
+                        </defs>
+                        <circle cx="100" cy="100" r="95" fill="none" stroke="#d4af37" stroke-width="8"/>
+                        <circle cx="100" cy="100" r="85" fill="#1a1a1a"/>
+                        
+                        <!-- Roulette segments (simplified) -->
+                        <g class="wheel-segments">
+                            <polygon points="100,20 110,85 100,100 90,85" class="wheel-segment-red"/>
+                            <polygon points="100,20 110,85 100,100 90,85" class="wheel-segment-black" transform="rotate(45 100 100)"/>
+                            <polygon points="100,20 110,85 100,100 90,85" class="wheel-segment-red" transform="rotate(90 100 100)"/>
+                            <polygon points="100,20 110,85 100,100 90,85" class="wheel-segment-black" transform="rotate(135 100 100)"/>
+                            <polygon points="100,20 110,85 100,100 90,85" class="wheel-segment-red" transform="rotate(180 100 100)"/>
+                            <polygon points="100,20 110,85 100,100 90,85" class="wheel-segment-black" transform="rotate(225 100 100)"/>
+                            <polygon points="100,20 110,85 100,100 90,85" class="wheel-segment-red" transform="rotate(270 100 100)"/>
+                            <polygon points="100,20 110,85 100,100 90,85" class="wheel-segment-black" transform="rotate(315 100 100)"/>
+                        </g>
+                        
+                        <!-- Center circle -->
+                        <circle cx="100" cy="100" r="15" fill="#d4af37"/>
+                        <circle cx="100" cy="100" r="10" fill="#1a1a1a"/>
+                        
+                        <!-- Pointer -->
+                        <polygon points="100,15 95,30 105,30" fill="#d4af37"/>
+                    </svg>
                 </div>
                 
                 <!-- Playing Cards -->
                 <div class="cards-container">
-                    <div class="card spades">♠</div>
-                    <div class="card hearts">♥</div>
-                    <div class="card diamonds">♦</div>
-                    <div class="card clubs">♣</div>
+                    <div class="card spades">
+                        <span class="card-suit">♠</span>
+                        <span class="card-rank">A</span>
+                    </div>
+                    <div class="card hearts">
+                        <span class="card-suit">♥</span>
+                        <span class="card-rank">A</span>
+                    </div>
+                    <div class="card diamonds">
+                        <span class="card-suit">♦</span>
+                        <span class="card-rank">A</span>
+                    </div>
+                    <div class="card clubs">
+                        <span class="card-suit">♣</span>
+                        <span class="card-rank">A</span>
+                    </div>
                 </div>
                 
                 <!-- Slot Machine -->
@@ -73,36 +77,40 @@
                 
                 <!-- Poker Chips -->
                 <div class="chips-stack">
-                    <div class="chip">💰</div>
-                    <div class="chip">💰</div>
-                    <div class="chip">💰</div>
-                    <div class="chip">💰</div>
+                    <div class="chip chip-red"></div>
+                    <div class="chip chip-blue"></div>
+                    <div class="chip chip-yellow"></div>
+                    <div class="chip chip-black"></div>
                 </div>
             </div>
             
             <!-- Right Side - Text Content -->
             <div class="banner-right">
-                <h1>AYACHI</h1>
-                <p class="subtitle">Experience Premium Casino Gaming</p>
-                <p>
+                <h1 class="banner-title">AYACHI</h1>
+                <p class="banner-subtitle">Experience Premium Casino Gaming</p>
+                <p class="banner-description">
                     Play for fun. No real money. No registration. Just pure entertainment with realistic casino games. 
                     Start with 1000 free credits and enjoy the thrill of professional casino gameplay.
                 </p>
+                <div class="banner-features">
+                    <span class="feature-badge">✓ Free to Play</span>
+                    <span class="feature-badge">✓ No Real Money</span>
+                    <span class="feature-badge">✓ No Prizes</span>
+                    <span class="feature-badge">✓ Pure Entertainment</span>
+                </div>
                 <div class="banner-cta">
-                    <a href="#games" class="btn btn-play">PLAY FOR FREE</a>
-                    <a href="#features" class="btn btn-learn">LEARN MORE</a>
+                    <a href="#games" class="btn btn-primary">PLAY FOR FREE</a>
+                    <a href="#features" class="btn btn-secondary">LEARN MORE</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="features">
+    <section id="features" class="features-section">
         <div class="container">
-            <h2 style="text-align: center; margin-bottom: var(--spacing-xl);">Why Choose AYACHI?</h2>
-            <p style="text-align: center; color: var(--text-muted); margin-bottom: var(--spacing-2xl);">
-                Experience the best in free-to-play casino entertainment
-            </p>
+            <h2 class="section-title">Why Choose AYACHI?</h2>
+            <p class="section-subtitle">Experience the best in free-to-play casino entertainment</p>
             
             <div class="features-grid">
                 <div class="feature-item">
@@ -145,145 +153,50 @@
     </section>
 
     <!-- Games Section -->
-    <section id="games" class="games">
+    <section id="games" class="games-section">
         <div class="container">
-            <h2 style="text-align: center; margin-bottom: var(--spacing-xl);">Our Premium Games</h2>
-            <p style="text-align: center; color: var(--text-muted); margin-bottom: var(--spacing-2xl);">
-                Choose from our collection of professional casino games
-            </p>
+            <h2 class="section-title">Our Premium Games</h2>
+            <p class="section-subtitle">Choose from our collection of professional casino games</p>
             
             <div class="games-grid">
-                <!-- Slots Game -->
                 <div class="game-card">
-                    <img src="/public/images/slots-game.webp" alt="Slots Game" class="game-card-image">
-                    <div class="game-card-overlay">
-                        <a href="/games/slots.php" class="btn btn-primary">PLAY NOW</a>
-                    </div>
-                    <div class="game-card-content">
-                        <h3>🎰 SLOTS</h3>
-                        <p>Classic spinning reels with authentic casino mechanics</p>
-                        <div class="game-badges">
-                            <span class="game-badge">6 Symbols</span>
-                            <span class="game-badge">Adjustable Bets</span>
-                        </div>
-                        <a href="/games/slots.php" class="btn btn-primary" style="width: 100%; justify-content: center;">PLAY NOW</a>
-                    </div>
+                    <div class="game-image">🎰</div>
+                    <h3>SLOTS</h3>
+                    <p>Classic spinning reels with authentic casino mechanics</p>
+                    <a href="/games/slots.php" class="game-btn">PLAY NOW</a>
                 </div>
                 
-                <!-- Roulette Game -->
                 <div class="game-card">
-                    <img src="/public/images/game-left(1).png" alt="Roulette Game" class="game-card-image">
-                    <div class="game-card-overlay">
-                        <a href="/games/roulette.php" class="btn btn-primary">PLAY NOW</a>
-                    </div>
-                    <div class="game-card-content">
-                        <h3>🎡 ROULETTE</h3>
-                        <p>European roulette with realistic wheel mechanics</p>
-                        <div class="game-badges">
-                            <span class="game-badge">37 Numbers</span>
-                            <span class="game-badge">Multiple Bets</span>
-                        </div>
-                        <a href="/games/roulette.php" class="btn btn-primary" style="width: 100%; justify-content: center;">PLAY NOW</a>
-                    </div>
+                    <div class="game-image">🎡</div>
+                    <h3>ROULETTE</h3>
+                    <p>European roulette with realistic wheel mechanics</p>
+                    <a href="/games/roulette.php" class="game-btn">PLAY NOW</a>
                 </div>
                 
-                <!-- Blackjack Game -->
                 <div class="game-card">
-                    <img src="/public/images/blackjack-game.webp" alt="Blackjack Game" class="game-card-image">
-                    <div class="game-card-overlay">
-                        <a href="/games/blackjack.php" class="btn btn-primary">PLAY NOW</a>
-                    </div>
-                    <div class="game-card-content">
-                        <h3>🎴 BLACKJACK</h3>
-                        <p>Classic card game with dealer AI</p>
-                        <div class="game-badges">
-                            <span class="game-badge">Hit/Stand</span>
-                            <span class="game-badge">Dealer AI</span>
-                        </div>
-                        <a href="/games/blackjack.php" class="btn btn-primary" style="width: 100%; justify-content: center;">PLAY NOW</a>
-                    </div>
+                    <div class="game-image">🎴</div>
+                    <h3>BLACKJACK</h3>
+                    <p>Classic card game with dealer AI</p>
+                    <a href="/games/blackjack.php" class="game-btn">PLAY NOW</a>
                 </div>
                 
-                <!-- Poker Game -->
                 <div class="game-card">
-                    <img src="/public/images/game-right.png" alt="Poker Game" class="game-card-image">
-                    <div class="game-card-overlay">
-                        <a href="/games/poker.php" class="btn btn-primary">PLAY NOW</a>
-                    </div>
-                    <div class="game-card-content">
-                        <h3>♠️ POKER</h3>
-                        <p>5-card draw poker with hand rankings</p>
-                        <div class="game-badges">
-                            <span class="game-badge">5-Card Draw</span>
-                            <span class="game-badge">Hand Rankings</span>
-                        </div>
-                        <a href="/games/poker.php" class="btn btn-primary" style="width: 100%; justify-content: center;">PLAY NOW</a>
-                    </div>
+                    <div class="game-image">♠️</div>
+                    <h3>POKER</h3>
+                    <p>5-card draw poker with hand rankings</p>
+                    <a href="/games/poker.php" class="game-btn">PLAY NOW</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section style="background: linear-gradient(135deg, var(--primary-green), var(--deep-black)); text-align: center; padding: var(--spacing-2xl) var(--spacing-lg);">
+    <section class="cta-section">
         <div class="container">
-            <h2 style="margin-bottom: var(--spacing-lg);">Ready to Play?</h2>
-            <p style="margin-bottom: var(--spacing-xl); font-size: 1.1rem;">
-                Start playing now with 1000 free credits. No registration required.
-            </p>
-            <a href="#games" class="btn btn-primary btn-lg">LAUNCH GAMES</a>
+            <h2>Ready to Play?</h2>
+            <p>Start playing now with 1000 free credits. No registration required.</p>
+            <a href="#games" class="btn btn-primary btn-large">LAUNCH GAMES</a>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>AYACHI CASINO</h4>
-                <p style="color: var(--text-muted); font-size: 0.9rem;">
-                    Premium free-to-play casino games. Experience authentic casino entertainment without real money.
-                </p>
-            </div>
-            
-            <div class="footer-section">
-                <h4>GAMES</h4>
-                <ul>
-                    <li><a href="/games/slots.php">Slots</a></li>
-                    <li><a href="/games/roulette.php">Roulette</a></li>
-                    <li><a href="/games/blackjack.php">Blackjack</a></li>
-                    <li><a href="/games/poker.php">Poker</a></li>
-                </ul>
-            </div>
-            
-            <div class="footer-section">
-                <h4>INFORMATION</h4>
-                <ul>
-                    <li><a href="/pages/about-us.php">About Us</a></li>
-                    <li><a href="/pages/contact-us.php">Contact</a></li>
-                    <li><a href="/pages/blog.php">Blog</a></li>
-                </ul>
-            </div>
-            
-            <div class="footer-section">
-                <h4>LEGAL</h4>
-                <ul>
-                    <li><a href="/pages/privacy-policy.php">Privacy Policy</a></li>
-                    <li><a href="/pages/terms-conditions.php">Terms & Conditions</a></li>
-                    <li><a href="/pages/disclaimer.php">Disclaimer</a></li>
-                    <li><a href="/pages/responsible-gaming.php">Responsible Gaming</a></li>
-                    <li><a href="/pages/community-rules.php">Community Rules</a></li>
-                    <li><a href="/pages/fair-policy.php">Fair Policy</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="footer-bottom">
-            <p>© 2026 AYACHI Healthcare Pvt. Ltd. All rights reserved.</p>
-            <p>FREE TO PLAY • No Real Money • No Prizes • Entertainment Only</p>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="/public/js/main.js"></script>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>

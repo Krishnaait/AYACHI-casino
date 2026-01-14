@@ -1,32 +1,11 @@
 <?php
 /**
  * BLACKJACK GAME - AYACHI Casino
- * HTML, CSS, PHP with Vanilla JavaScript
- * Classic blackjack with dealer AI
+ * Using Global Header & Footer
  */
+$page_title = "Blackjack";
+include '../includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blackjack - AYACHI Casino</title>
-    <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/css/games.css">
-</head>
-<body>
-    <!-- HEADER -->
-    <header>
-        <div class="container">
-            <div class="logo">
-                <div class="logo-icon">AY</div>
-                <span>BLACKJACK</span>
-            </div>
-            <nav>
-                <a href="../index.php">← BACK HOME</a>
-            </nav>
-        </div>
-    </header>
 
     <!-- GAME CONTAINER -->
     <div class="game-container">
@@ -35,7 +14,7 @@
             <div class="game-title">
                 <h1>🎴 BLACKJACK</h1>
             </div>
-            <a href="../index.php" class="btn btn-secondary btn-sm">← Back</a>
+            <a href="/" class="btn btn-secondary btn-sm">← Home</a>
         </div>
 
         <!-- GAME STATS -->
@@ -110,7 +89,7 @@
                     <li><strong>Place Bet:</strong> Choose your bet amount (10, 25, 50, or 100 credits)</li>
                     <li><strong>Hit:</strong> Receive another card</li>
                     <li><strong>Stand:</strong> Keep your current hand and let dealer play</li>
-                    <li><strong>Win:</strong> Beat the dealer or dealer busts (2x payout)</li>
+                    <li><strong>Earn Credits:</strong> Beat the dealer or dealer busts (2x payout)</li>
                     <li><strong>Card Values:</strong> Number cards = face value, Face cards = 10, Ace = 1 or 11</li>
                 </ul>
             </div>
@@ -122,16 +101,6 @@
         </div>
     </div>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <div class="footer-bottom">
-                <p>&copy; 2026 AYACHI Healthcare Pvt. Ltd. All rights reserved.</p>
-                <p><span class="text-primary"><strong>FREE TO PLAY</strong></span> • No Real Money • No Prizes • Entertainment Only</p>
-            </div>
-        </div>
-    </footer>
-
     <script src="../public/js/blackjack.js"></script>
-</body>
-</html>
+
+<?php include '../includes/footer.php'; ?>

@@ -1,32 +1,11 @@
 <?php
 /**
  * ROULETTE GAME - AYACHI Casino
- * HTML, CSS, PHP with Vanilla JavaScript
- * European roulette with 37 numbers (0-36)
+ * Using Global Header & Footer
  */
+$page_title = "Roulette";
+include '../includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roulette - AYACHI Casino</title>
-    <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/css/games.css">
-</head>
-<body>
-    <!-- HEADER -->
-    <header>
-        <div class="container">
-            <div class="logo">
-                <div class="logo-icon">AY</div>
-                <span>ROULETTE</span>
-            </div>
-            <nav>
-                <a href="../index.php">← BACK HOME</a>
-            </nav>
-        </div>
-    </header>
 
     <!-- GAME CONTAINER -->
     <div class="game-container">
@@ -35,7 +14,7 @@
             <div class="game-title">
                 <h1>🎡 ROULETTE</h1>
             </div>
-            <a href="../index.php" class="btn btn-secondary btn-sm">← Back</a>
+            <a href="/" class="btn btn-secondary btn-sm">← Home</a>
         </div>
 
         <!-- GAME STATS -->
@@ -159,16 +138,6 @@
         </div>
     </div>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <div class="footer-bottom">
-                <p>&copy; 2026 AYACHI Healthcare Pvt. Ltd. All rights reserved.</p>
-                <p><span class="text-primary"><strong>FREE TO PLAY</strong></span> • No Real Money • No Prizes • Entertainment Only</p>
-            </div>
-        </div>
-    </footer>
-
     <script src="../public/js/roulette.js"></script>
-</body>
-</html>
+
+<?php include '../includes/footer.php'; ?>

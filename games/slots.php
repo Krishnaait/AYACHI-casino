@@ -1,32 +1,11 @@
 <?php
 /**
  * SLOTS GAME - AYACHI Casino
- * HTML, CSS, PHP with Vanilla JavaScript
- * Realistic slot machine with spinning reels
+ * Using Global Header & Footer
  */
+$page_title = "Slots";
+include '../includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slots - AYACHI Casino</title>
-    <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/css/games.css">
-</head>
-<body>
-    <!-- HEADER -->
-    <header>
-        <div class="container">
-            <div class="logo">
-                <div class="logo-icon">AY</div>
-                <span>SLOTS</span>
-            </div>
-            <nav>
-                <a href="../index.php">← BACK HOME</a>
-            </nav>
-        </div>
-    </header>
 
     <!-- GAME CONTAINER -->
     <div class="game-container">
@@ -35,7 +14,7 @@
             <div class="game-title">
                 <h1>🎰 SLOT MACHINES</h1>
             </div>
-            <a href="../index.php" class="btn btn-secondary btn-sm">← Back</a>
+            <a href="/" class="btn btn-secondary btn-sm">← Home</a>
         </div>
 
         <!-- GAME STATS -->
@@ -70,8 +49,8 @@
 
             <!-- BET CONTROLS -->
             <div class="bet-controls">
-                <button class="btn btn-secondary" onclick="decreaseBet()">- Bet</button>
-                <button class="btn btn-secondary" onclick="increaseBet()">+ Bet</button>
+                <button class="btn btn-secondary" onclick="decreaseBet()">- BET</button>
+                <button class="btn btn-secondary" onclick="increaseBet()">+ BET</button>
             </div>
 
             <!-- SPIN BUTTON -->
@@ -81,8 +60,8 @@
 
             <!-- CONTROL BUTTONS -->
             <div class="control-buttons">
-                <button class="btn btn-secondary" onclick="resetCredits()">🔄 Reset</button>
-                <button class="btn btn-secondary" onclick="toggleSound()" id="soundBtn">🔊 Sound</button>
+                <button class="btn btn-secondary" onclick="resetCredits()">🔄 RESET</button>
+                <button class="btn btn-secondary" onclick="toggleSound()" id="soundBtn">🔊 SOUND</button>
             </div>
         </div>
 
@@ -95,7 +74,7 @@
                 <ul class="how-to-list">
                     <li><strong>Set your bet:</strong> Use the +/- buttons to adjust your bet amount</li>
                     <li><strong>Click SPIN:</strong> Spin the reels to play</li>
-                    <li><strong>Match symbols:</strong> Get matching symbols to win credits</li>
+                    <li><strong>Match symbols:</strong> Get matching symbols to earn credits</li>
                     <li><strong>Payouts:</strong> 7️⃣ (100x), 👑 (75x), 💎 (50x), 🍊 (25x), 🍋 (20x), 🍒 (15x)</li>
                     <li><strong>Reset:</strong> Click Reset to restore credits to 1000</li>
                 </ul>
@@ -108,16 +87,6 @@
         </div>
     </div>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <div class="footer-bottom">
-                <p>&copy; 2026 AYACHI Healthcare Pvt. Ltd. All rights reserved.</p>
-                <p><span class="text-primary"><strong>FREE TO PLAY</strong></span> • No Real Money • No Prizes • Entertainment Only</p>
-            </div>
-        </div>
-    </footer>
-
     <script src="../public/js/slots.js"></script>
-</body>
-</html>
+
+<?php include '../includes/footer.php'; ?>

@@ -126,7 +126,7 @@
     <footer>
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2024 AYACHI Healthcare Pvt. Ltd. All rights reserved.</p>
+                <p>&copy; 2024 AYACHIcopy; 2026 AYACHI Healthcare Pvt. Ltd. All rights reserved.</p>
                 <p><span class="text-primary"><strong>FREE TO PLAY</strong></span> • No Real Money • No Prizes • Entertainment Only</p>
             </div>
         </div>

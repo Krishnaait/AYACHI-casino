@@ -5,7 +5,7 @@ include 'includes/header.php';
 
 <style>
     .hero-banner {
-        background-image: url('/public/images/casino-banner.png');
+        background-image: url('/public/images/casino-banner.webp');
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -419,7 +419,7 @@ include 'includes/header.php';
             <!-- Feature 1: Mobile -->
             <div class="feature-card">
                 <div class="feature-image">
-                    <img src="/public/images/feature_mobile.png" alt="Mobile Responsive">
+                    <img src="/public/images/feature_mobile.webp" alt="Mobile Responsive">
                 </div>
                 <h3>Mobile Responsive</h3>
                 <p>Play on any device - desktop, tablet, or mobile. Seamless gaming experience everywhere.</p>
@@ -428,7 +428,7 @@ include 'includes/header.php';
             <!-- Feature 2: Entertainment -->
             <div class="feature-card">
                 <div class="feature-image">
-                    <img src="/public/images/feature_entertainment.png" alt="Pure Entertainment">
+                    <img src="/public/images/feature_entertainment.webp" alt="Pure Entertainment">
                 </div>
                 <h3>Pure Entertainment</h3>
                 <p>Enjoy authentic casino games designed for fun and excitement. No real money involved.</p>
@@ -437,7 +437,7 @@ include 'includes/header.php';
             <!-- Feature 3: Sound -->
             <div class="feature-card">
                 <div class="feature-image">
-                    <img src="/public/images/feature_sound.png" alt="Immersive Sound">
+                    <img src="/public/images/feature_sound.webp" alt="Immersive Sound">
                 </div>
                 <h3>Immersive Sound</h3>
                 <p>Experience realistic casino sounds and effects. Toggle audio on or off anytime.</p>
@@ -446,7 +446,7 @@ include 'includes/header.php';
             <!-- Feature 4: No Registration -->
             <div class="feature-card">
                 <div class="feature-image">
-                    <img src="/public/images/feature_registration.png" alt="No Registration">
+                    <img src="/public/images/feature_registration.webp" alt="No Registration">
                 </div>
                 <h3>No Registration</h3>
                 <p>Start playing instantly without any signup or personal information required.</p>
@@ -455,7 +455,7 @@ include 'includes/header.php';
             <!-- Feature 5: Fair Mechanics -->
             <div class="feature-card">
                 <div class="feature-image">
-                    <img src="/public/images/feature_mechanics.png" alt="Fair Mechanics">
+                    <img src="/public/images/feature_mechanics.webp" alt="Fair Mechanics">
                 </div>
                 <h3>Fair Game Mechanics</h3>
                 <p>Professional casino algorithms ensure fair and transparent gameplay for all players.</p>
@@ -464,7 +464,7 @@ include 'includes/header.php';
             <!-- Feature 6: Free Credits -->
             <div class="feature-card">
                 <div class="feature-image">
-                    <img src="/public/images/feature_credit.png" alt="Free Credits">
+                    <img src="/public/images/feature_credit.webp" alt="Free Credits">
                 </div>
                 <h3>1000 Free Credits</h3>
                 <p>Start with 1000 free credits. Reset anytime to enjoy unlimited gaming sessions.</p>
@@ -483,7 +483,7 @@ include 'includes/header.php';
             <!-- Slots Game -->
             <div class="game-card">
                 <div class="game-image">
-                    <img src="/public/images/game_slots.png" alt="Slots Game">
+                    <img src="/public/images/game_slots.webp" alt="Slots Game">
                     <div class="game-overlay">
                         <a href="/games/slots.php" class="play-button">PLAY NOW</a>
                     </div>
@@ -502,7 +502,7 @@ include 'includes/header.php';
             <!-- Roulette Game -->
             <div class="game-card">
                 <div class="game-image">
-                    <img src="/public/images/game_roulette.png" alt="Roulette Game">
+                    <img src="/public/images/game_roulette.webp" alt="Roulette Game">
                     <div class="game-overlay">
                         <a href="/games/roulette.php" class="play-button">PLAY NOW</a>
                     </div>
@@ -521,7 +521,7 @@ include 'includes/header.php';
             <!-- Blackjack Game -->
             <div class="game-card">
                 <div class="game-image">
-                    <img src="/public/images/game_blackjack.png" alt="Blackjack Game">
+                    <img src="/public/images/game_blackjack.webp" alt="Blackjack Game">
                     <div class="game-overlay">
                         <a href="/games/blackjack.php" class="play-button">PLAY NOW</a>
                     </div>
@@ -540,7 +540,7 @@ include 'includes/header.php';
             <!-- Poker Game -->
             <div class="game-card">
                 <div class="game-image">
-                    <img src="/public/images/game_poker.png" alt="Poker Game">
+                    <img src="/public/images/game_poker.webp" alt="Poker Game">
                     <div class="game-overlay">
                         <a href="/games/poker.php" class="play-button">PLAY NOW</a>
                     </div>

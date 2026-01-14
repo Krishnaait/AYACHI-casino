@@ -208,4 +208,4 @@ include '../includes/header.php';
 
     <script src="../public/js/poker.js"></script>
 
-<?php include '../includes/footer.php'; ?>
+    <?php include '../includes/footer.php'; ?>

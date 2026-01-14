@@ -178,4 +178,4 @@ include '../includes/header.php';
 
     <script src="../public/js/roulette.js"></script>
 
-<?php include '../includes/footer.php'; ?>
+    <?php include '../includes/footer.php'; ?>

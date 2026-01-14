@@ -26,6 +26,22 @@ include '../includes/header.php';
             </div>
         </div>
 
+        <!-- GAME IMAGE AND HISTORY SECTION -->
+        <div class="game-image-history-section">
+            <div class="game-image-container">
+                <img src="/public/images/game_slots.webp" alt="Slot Machines Game" class="game-featured-image">
+            </div>
+            <div class="game-history-container">
+                <h3 class="history-title">History of Slot Machines</h3>
+                <div class="history-content">
+                    <p>Slot machines have a rich history dating back to the late 19th century. The first mechanical slot machine, called the "Liberty Bell," was invented by Charles Fey in 1895 in San Francisco. It featured three spinning reels with symbols including horseshoes, diamonds, spades, hearts, and the Liberty Bell.</p>
+                    <p>The Liberty Bell machine was revolutionary for its time, offering automatic payouts when three bells aligned on the reels. This innovation made it incredibly popular in bars and saloons across America, and it quickly became a symbol of the gambling industry.</p>
+                    <p>Throughout the 20th century, slot machines evolved dramatically. From mechanical reels to electronic systems, and eventually to digital displays, slots have remained one of the most beloved casino games worldwide. Today's slot machines combine cutting-edge technology with the timeless appeal of the original concept, offering players exciting themes, bonus features, and the chance to win big.</p>
+                    <p>The enduring popularity of slot machines lies in their simplicity, excitement, and the element of chance that keeps players coming back for more entertainment and fun.</p>
+                </div>
+            </div>
+        </div>
+
         <!-- MAIN GAME CONTAINER -->
         <div class="game-container-professional">
             
@@ -159,6 +175,24 @@ include '../includes/header.php';
                         <div class="feature-item">
                             <strong>✓ Reset Anytime</strong>
                             <p>Restore your credits and play again</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-column">
+                    <h3 class="info-title">Game Tips</h3>
+                    <div class="info-content">
+                        <div class="feature-item">
+                            <strong>💡 Understand Payouts</strong>
+                            <p>Check the payout table to know which symbols pay the most</p>
+                        </div>
+                        <div class="feature-item">
+                            <strong>💡 Manage Your Bet</strong>
+                            <p>Start with smaller bets and adjust based on your comfort level</p>
+                        </div>
+                        <div class="feature-item">
+                            <strong>💡 Play for Fun</strong>
+                            <p>Remember this is entertainment - enjoy the experience!</p>
                         </div>
                     </div>
                 </div>

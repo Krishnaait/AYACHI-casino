@@ -26,6 +26,22 @@ include '../includes/header.php';
             </div>
         </div>
 
+        <!-- GAME IMAGE AND HISTORY SECTION -->
+        <div class="game-image-history-section">
+            <div class="game-image-container">
+                <img src="/public/images/game_roulette.webp" alt="Roulette Game" class="game-featured-image">
+            </div>
+            <div class="game-history-container">
+                <h3 class="history-title">History of Roulette</h3>
+                <div class="history-content">
+                    <p>Roulette has a fascinating history that dates back to 17th-century France. The game was invented by mathematician Blaise Pascal, who was trying to create a perpetual motion machine. Instead, he accidentally created one of the most iconic casino games in the world.</p>
+                    <p>The name "roulette" comes from the French word meaning "little wheel." The game became extremely popular in France during the 18th century and eventually spread throughout Europe and the world. It became a staple of Monte Carlo and other famous casinos.</p>
+                    <p>The modern roulette wheel was developed in the 19th century, with the addition of the "0" pocket to give the house an edge. American roulette later added a "00" pocket, increasing the house advantage even further.</p>
+                    <p>Today, roulette remains one of the most beloved casino games, known for its simplicity, elegance, and the thrill of watching the ball spin around the wheel. The game's enduring appeal lies in its combination of chance, strategy, and the excitement of anticipation.</p>
+                </div>
+            </div>
+        </div>
+
         <!-- MAIN GAME CONTAINER -->
         <div class="game-container-professional">
             

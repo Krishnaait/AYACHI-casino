@@ -26,6 +26,22 @@ include '../includes/header.php';
             </div>
         </div>
 
+        <!-- GAME IMAGE AND HISTORY SECTION -->
+        <div class="game-image-history-section">
+            <div class="game-image-container">
+                <img src="/public/images/game_blackjack.webp" alt="Blackjack Game" class="game-featured-image">
+            </div>
+            <div class="game-history-container">
+                <h3 class="history-title">History of Blackjack</h3>
+                <div class="history-content">
+                    <p>Blackjack, also known as "21," has a rich history dating back to the 17th century. The game is believed to have originated in France, where it was called "Vingt-et-Un" (French for "twenty-one"). It was first mentioned in a book by Spanish author Miguel de Cervantes in 1601.</p>
+                    <p>The game became popular in the United States during the Gold Rush era, when miners and settlers played it in saloons and gambling halls. American casinos adopted the game and added the "blackjack" bonus payout to attract players, which gave the game its modern name.</p>
+                    <p>In the 1960s, mathematician Edward Thorp published "Beat the Dealer," which introduced card counting strategies. This revolutionized the game and made it one of the most strategically complex casino games. Modern blackjack combines luck with mathematical strategy, making it appealing to both casual players and serious strategists.</p>
+                    <p>Today, blackjack remains one of the most popular casino games worldwide, known for its perfect balance of chance and skill. The game's enduring appeal lies in its simple rules but deep strategic possibilities.</p>
+                </div>
+            </div>
+        </div>
+
         <!-- MAIN GAME CONTAINER -->
         <div class="game-container-professional">
             

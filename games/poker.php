@@ -26,6 +26,22 @@ include '../includes/header.php';
             </div>
         </div>
 
+        <!-- GAME IMAGE AND HISTORY SECTION -->
+        <div class="game-image-history-section">
+            <div class="game-image-container">
+                <img src="/public/images/game_poker.webp" alt="Poker Game" class="game-featured-image">
+            </div>
+            <div class="game-history-container">
+                <h3 class="history-title">History of Poker</h3>
+                <div class="history-content">
+                    <p>Poker has a fascinating and somewhat mysterious history. While its exact origins are debated, most historians believe poker evolved from various European card games, particularly the French game "Poque" and the German game "Pochspiel." The game was brought to America by French settlers in New Orleans in the early 19th century.</p>
+                    <p>Poker became wildly popular during the American Civil War and the Gold Rush era. It was played on riverboats, in saloons, and in mining camps across the frontier. The game evolved from simple 5-card draw to include variants like stud poker and draw poker with wild cards.</p>
+                    <p>In the 20th century, poker became a staple of casinos and eventually spread to online platforms. The game gained mainstream popularity through televised poker tournaments, particularly the World Series of Poker (WSOP) and celebrity poker shows. Modern poker combines mathematical strategy, psychology, and luck in ways that continue to captivate millions of players worldwide.</p>
+                    <p>Today, poker is recognized as a game of skill and strategy, with professional players competing for millions of dollars in tournaments. The game's enduring appeal lies in its perfect blend of chance, strategy, and human psychology.</p>
+                </div>
+            </div>
+        </div>
+
         <!-- MAIN GAME CONTAINER -->
         <div class="game-container-professional">
             

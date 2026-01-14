@@ -1,0 +1,124 @@
+/* Professional Roulette Wheel Styling */
+
+.professional-wheel {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 1;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wheel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.05s linear;
+    filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.5));
+}
+
+.professional-wheel.spinning .wheel-image {
+    animation: wheelSpin 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@keyframes wheelSpin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(3600deg);
+    }
+}
+
+/* Ball indicator (fixed at top) */
+.ball-indicator {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(135deg, #fff, #e0e0e0);
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), inset -1px -1px 3px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.ball-indicator::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background: radial-gradient(circle at 30% 30%, #fff, #d0d0d0);
+    border-radius: 50%;
+}
+
+/* Winning number display */
+.winning-number {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #d4af37;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid #d4af37;
+    min-width: 80px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease 4s;
+}
+
+.professional-wheel.spinning .winning-number {
+    opacity: 0;
+}
+
+.professional-wheel.result .winning-number {
+    opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .professional-wheel {
+        max-width: 350px;
+    }
+
+    .winning-number {
+        font-size: 2rem;
+        padding: 8px 16px;
+    }
+
+    .ball-indicator {
+        width: 16px;
+        height: 16px;
+        top: -12px;
+    }
+}
+
+/* Wheel section container */
+.wheel-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.wheel-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+}

@@ -65,7 +65,11 @@ include '../includes/header.php';
                 <!-- ROULETTE WHEEL DISPLAY -->
                 <div class="wheel-section">
                     <div class="wheel-container">
-                        <div class="wheel" id="wheel">?</div>
+                        <div class="professional-wheel" id="professionalWheel">
+                            <img src="/public/images/roulette-wheel-professional.webp" alt="Roulette Wheel" class="wheel-image">
+                            <div class="ball-indicator"></div>
+                            <div class="winning-number" id="winningNumber">?</div>
+                        </div>
                     </div>
                     <div class="game-message" id="message">Select your bets and spin!</div>
                 </div>
@@ -190,7 +194,7 @@ include '../includes/header.php';
         </div>
     </div>
 
-    <script src="../public/js/roulette-wheel.js"></script>
+    <script src="../public/js/roulette-professional.js"></script>
     <script src="../public/js/roulette.js"></script>
 
     <?php include '../includes/footer.php'; ?>

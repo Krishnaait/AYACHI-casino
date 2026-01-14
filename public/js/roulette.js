@@ -99,14 +99,23 @@ function spinWheel() {
   showMessage('Spinning...');
   playSound('spin');
   
-  const wheel = document.getElementById('wheel');
-  wheel.classList.add('spinning');
+  const winningNumber = Math.floor(Math.random() * 37);
+  gameState.result = winningNumber;
+  
+  if (typeof professionalWheel !== 'undefined') {
+    professionalWheel.spin(winningNumber, () => {
+      handleSpinResult(winningNumber, spinBtn);
+    });
+  } else {
+    setTimeout(() => {
+      handleSpinResult(winningNumber, spinBtn);
+    }, 4000);
+  }
+}
 
-  setTimeout(() => {
-    const winningNumber = Math.floor(Math.random() * 37);
-    gameState.result = winningNumber;
-    
-    wheel.classList.remove('spinning');
+function handleSpinResult(winningNumber, spinBtn) {
+  const wheel = document.getElementById('wheel');
+  if (wheel) {
     wheel.textContent = winningNumber;
     
     // Calculate winnings
@@ -145,7 +154,6 @@ function spinWheel() {
     spinBtn.disabled = false;
     spinBtn.textContent = 'SPIN WHEEL';
     updateDisplay();
-  }, 3000);
 }
 
 function resetCredits() {
@@ -155,6 +163,9 @@ function resetCredits() {
   gameState.result = null;
   document.getElementById('wheel').textContent = '?';
   document.getElementById('winAmount').textContent = '0';
+  if (typeof professionalWheel !== 'undefined') {
+    professionalWheel.reset();
+  }
   showMessage('Credits reset to 1000!', 'win');
   updateDisplay();
 }

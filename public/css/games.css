@@ -449,6 +449,67 @@
 }
 
 /* ============================================
+   CASINO CHIPS STYLING
+   ============================================ */
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, #d4af37 0deg 120deg, #8b6914 120deg 240deg, #d4af37 240deg);
+  border: 3px solid #8b6914;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), inset 0 -2px 4px rgba(0, 0, 0, 0.3), inset 0 2px 4px rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+  color: #1a1a1a;
+  font-size: 0.9rem;
+  position: relative;
+  margin: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.chip:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(212, 175, 55, 0.6), inset 0 -2px 4px rgba(0, 0, 0, 0.3), inset 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.chip::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.3), transparent);
+  pointer-events: none;
+}
+
+.chip-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.chip-label {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+/* ============================================
    COMMON GAME ELEMENTS
    ============================================ */
 

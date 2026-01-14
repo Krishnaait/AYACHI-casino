@@ -1,6 +1,6 @@
 <?php
 /**
- * SLOTS GAME - Jackpoo Casino
+ * SLOTS GAME - AYACHI Casino
  * HTML, CSS, PHP with Vanilla JavaScript
  * Realistic slot machine with spinning reels
  */
@@ -49,7 +49,7 @@
                 <div class="stat-value text-primary" id="bet">10</div>
             </div>
             <div class="stat-box">
-                <div class="stat-label">Win</div>
+                <div class="stat-label">Payout</div>
                 <div class="stat-value" id="winAmount" style="color: var(--accent-green);">0</div>
             </div>
         </div>

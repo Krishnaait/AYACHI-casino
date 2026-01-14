@@ -176,7 +176,7 @@ function drawCards() {
   let payout = 0;
 
   if (playerRanking.value > dealerRanking.value) {
-    result = `You win with ${playerRanking.name}!`;
+    result = `You earned credits with ${playerRanking.name}!`;
     payout = gameState.bet * 2;
     playSound('win');
   } else if (playerRanking.value === dealerRanking.value) {
@@ -184,7 +184,7 @@ function drawCards() {
     payout = gameState.bet;
     playSound('deal');
   } else {
-    result = `Dealer wins with ${dealerRanking.name}!`;
+    result = `Dealer earns this round with ${dealerRanking.name}!`;
     payout = 0;
     playSound('lose');
   }

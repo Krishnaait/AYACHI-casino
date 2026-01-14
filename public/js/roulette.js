@@ -132,11 +132,11 @@ function spinWheel() {
     if (payout > 0) {
       gameState.credits += payout;
       document.getElementById('winAmount').textContent = payout;
-      showMessage(`🎉 Winning number: ${winningNumber}! You won ${payout} credits!`, 'win');
+      showMessage(`🎉 Winning number: ${winningNumber}! You earned ${payout} credits!`, 'win');
       playSound('win');
     } else {
       document.getElementById('winAmount').textContent = '0';
-      showMessage(`Winning number: ${winningNumber}. Better luck next time!`, 'lose');
+      showMessage(`Winning number: ${winningNumber}. Try again!`, 'lose');
     }
 
     gameState.spinning = false;

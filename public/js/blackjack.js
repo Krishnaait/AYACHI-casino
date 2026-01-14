@@ -158,11 +158,11 @@ function finishGame() {
   let payout = 0;
 
   if (dealerTotal > 21) {
-    result = 'Dealer busts! You win!';
+    result = 'Dealer busts! You earned credits!';
     payout = gameState.bet * 2;
     playSound('win');
   } else if (playerTotal > dealerTotal) {
-    result = 'You win!';
+    result = 'You earned credits!';
     payout = gameState.bet * 2;
     playSound('win');
   } else if (playerTotal === dealerTotal) {
@@ -170,7 +170,7 @@ function finishGame() {
     payout = gameState.bet;
     playSound('deal');
   } else {
-    result = 'Dealer wins!';
+    result = 'Dealer earns this round!';
     payout = 0;
     playSound('lose');
   }

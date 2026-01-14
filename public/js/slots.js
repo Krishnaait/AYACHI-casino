@@ -98,11 +98,11 @@ function spin() {
         const payout = winCombo.payout * gameState.bet;
         gameState.credits += payout;
         document.getElementById('winAmount').textContent = payout;
-        showMessage(`🎉 YOU WIN! ${payout} credits!`, 'win');
+        showMessage(`🎉 Great! You earned ${payout} credits!`, 'win');
         playSound('win');
       } else {
         document.getElementById('winAmount').textContent = '0';
-        showMessage('No match. Try again!', 'lose');
+        showMessage('No match this time. Try again!', 'lose');
         playSound('lose');
       }
 

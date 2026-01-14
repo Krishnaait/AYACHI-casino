@@ -1,6 +1,6 @@
 <?php
 /**
- * POKER GAME - Jackpoo Casino
+ * POKER GAME - AYACHI Casino
  * HTML, CSS, PHP with Vanilla JavaScript
  * 5-card draw poker with hand rankings
  */
@@ -49,7 +49,7 @@
                 <div class="stat-value text-primary" id="bet">0</div>
             </div>
             <div class="stat-box">
-                <div class="stat-label">Win</div>
+                <div class="stat-label">Payout</div>
                 <div class="stat-value" id="winAmount" style="color: var(--accent-green);">0</div>
             </div>
         </div>
@@ -144,7 +144,7 @@
     <footer>
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2024 AYACHIcopy; 2026 AYACHI Healthcare Pvt. Ltd. All rights reserved.</p>
+                <p>&copy; 2026 AYACHI Healthcare Pvt. Ltd. All rights reserved.</p>
                 <p><span class="text-primary"><strong>FREE TO PLAY</strong></span> • No Real Money • No Prizes • Entertainment Only</p>
             </div>
         </div>

@@ -16,8 +16,6 @@ include '../includes/header.php';
                 <h1 class="game-title-main">🎡 ROULETTE</h1>
                 <p class="game-tagline">Experience the Thrill of Classic Roulette</p>
                 <div class="game-rating">
-                    <span class="stars">★★★★★</span>
-                    <span class="rating-text">4.8/5 (2,847 plays)</span>
                 </div>
                 <p class="game-description">
                     Roulette is the most famous of the casino games. Predict where the ball will land on the spinning wheel and earn credits. 
@@ -192,6 +190,7 @@ include '../includes/header.php';
         </div>
     </div>
 
+    <script src="../public/js/roulette-wheel.js"></script>
     <script src="../public/js/roulette.js"></script>
 
     <?php include '../includes/footer.php'; ?>

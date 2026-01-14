@@ -16,8 +16,6 @@ include '../includes/header.php';
                 <h1 class="game-title-main">♠️ POKER</h1>
                 <p class="game-tagline">5-Card Draw Poker Challenge</p>
                 <div class="game-rating">
-                    <span class="stars">★★★★★</span>
-                    <span class="rating-text">4.6/5 (1,923 plays)</span>
                 </div>
                 <p class="game-description">
                     Master the classic 5-card draw poker game. Build the best hand possible by selecting which cards to keep and which to discard. 

@@ -37,10 +37,6 @@ include '../includes/header.php';
                     <div class="game-card-content">
                         <h3 class="game-card-title">🎰 SLOT MACHINES</h3>
                         <p class="game-card-tagline">Spin to Win Big Credits</p>
-                        <div class="game-card-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-text">4.9/5 (3,521 plays)</span>
-                        </div>
                         <p class="game-card-description">
                             Experience the classic excitement of slot machines. Match symbols on the reels to earn credits. 
                             Simple gameplay with exciting payouts.
@@ -64,10 +60,6 @@ include '../includes/header.php';
                     <div class="game-card-content">
                         <h3 class="game-card-title">🎡 ROULETTE</h3>
                         <p class="game-card-tagline">Experience the Thrill of Classic Roulette</p>
-                        <div class="game-card-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-text">4.8/5 (2,847 plays)</span>
-                        </div>
                         <p class="game-card-description">
                             Roulette is the most famous of the casino games. Predict where the ball will land on the spinning wheel 
                             and earn credits. Experience the elegance and excitement of this classic casino game.
@@ -91,10 +83,6 @@ include '../includes/header.php';
                     <div class="game-card-content">
                         <h3 class="game-card-title">🎴 BLACKJACK</h3>
                         <p class="game-card-tagline">Beat the Dealer to 21</p>
-                        <div class="game-card-rating">
-                            <span class="stars">★★★★☆</span>
-                            <span class="rating-text">4.7/5 (2,654 plays)</span>
-                        </div>
                         <p class="game-card-description">
                             The classic card game of strategy and skill. Get closer to 21 than the dealer without going over. 
                             Hit or stand strategically to earn credits and test your card sense.
@@ -118,10 +106,6 @@ include '../includes/header.php';
                     <div class="game-card-content">
                         <h3 class="game-card-title">♠️ POKER</h3>
                         <p class="game-card-tagline">5-Card Draw Poker Challenge</p>
-                        <div class="game-card-rating">
-                            <span class="stars">★★★★★</span>
-                            <span class="rating-text">4.6/5 (1,923 plays)</span>
-                        </div>
                         <p class="game-card-description">
                             Master the classic 5-card draw poker game. Build the best hand possible by selecting which cards to keep 
                             and which to discard. Test your poker knowledge and earn credits with winning hands.

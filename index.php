@@ -497,10 +497,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="game-info">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-                        <h3 style="margin: 0;">🎰 SLOTS</h3>
-                        <span style="color: #d4af37; font-size: 0.9rem;">★★★★★ 4.9/5</span>
-                    </div>
+                    <h3 style="margin: 0; margin-bottom: 10px;">🎰 SLOTS</h3>
                     <p>Experience the classic excitement of slot machines. Match symbols on the reels to earn credits. Simple gameplay with exciting payouts makes this a favorite among casino enthusiasts.</p>
                     <div class="game-specs">
                         <span>Easy to Play</span>
@@ -519,10 +516,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="game-info">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-                        <h3 style="margin: 0;">🎡 ROULETTE</h3>
-                        <span style="color: #d4af37; font-size: 0.9rem;">★★★★★ 4.8/5</span>
-                    </div>
+                    <h3 style="margin: 0; margin-bottom: 10px;">🎡 ROULETTE</h3>
                     <p>Roulette is the most famous of the casino games. Predict where the ball will land on the spinning wheel and earn credits. Experience the elegance and excitement of this classic casino game with multiple betting options.</p>
                     <div class="game-specs">
                         <span>Multiple Bets</span>
@@ -541,10 +535,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="game-info">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-                        <h3 style="margin: 0;">🎴 BLACKJACK</h3>
-                        <span style="color: #d4af37; font-size: 0.9rem;">★★★★☆ 4.7/5</span>
-                    </div>
+                    <h3 style="margin: 0; margin-bottom: 10px;">🎴 BLACKJACK</h3>
                     <p>The classic card game of strategy and skill. Get closer to 21 than the dealer without going over. Hit or stand strategically to earn credits and test your card sense.</p>
                     <div class="game-specs">
                         <span>Strategy Game</span>
@@ -563,10 +554,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="game-info">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-                        <h3 style="margin: 0;">♠️ POKER</h3>
-                        <span style="color: #d4af37; font-size: 0.9rem;">★★★★★ 4.6/5</span>
-                    </div>
+                    <h3 style="margin: 0; margin-bottom: 10px;">♠️ POKER</h3>
                     <p>Master the classic 5-card draw poker game. Build the best hand possible by selecting which cards to keep and which to discard. Test your poker knowledge and earn credits with winning hands.</p>
                     <div class="game-specs">
                         <span>Hand Rankings</span>

@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="/public/css/global.css">
     <link rel="stylesheet" href="/public/css/style.css">
     <link rel="stylesheet" href="/public/css/banner.css">
-    <link rel="stylesheet" href="/public/css/home.css">
     <link rel="stylesheet" href="/public/css/games.css">
+    <link rel="stylesheet" href="/public/css/game-layout.css">
     <link rel="stylesheet" href="/public/css/pages.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

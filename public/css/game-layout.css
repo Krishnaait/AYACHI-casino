@@ -1,0 +1,675 @@
+/* ============================================
+   PROFESSIONAL CASINO GAME LAYOUT STYLES
+   GameTwist-Inspired Design
+   ============================================ */
+
+/* GAME PAGE WRAPPER */
+.game-page-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(0, 30, 20, 0.9), rgba(0, 50, 40, 0.95));
+  padding: 0;
+}
+
+/* ============================================
+   GAME HERO SECTION
+   ============================================ */
+.game-hero-section {
+  background: linear-gradient(180deg, rgba(0, 100, 80, 0.4), rgba(0, 50, 40, 0.6)), 
+              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(212,175,55,0.03)" stroke-width="1"/></pattern></defs><rect width="1200" height="300" fill="url(%23grid)"/></svg>');
+  border-bottom: 3px solid rgba(212, 175, 55, 0.3);
+  padding: 3rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.game-hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at center, rgba(212, 175, 55, 0.05), transparent);
+  pointer-events: none;
+}
+
+.game-hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.game-title-main {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #d4af37;
+  margin: 0 0 0.5rem 0;
+  text-shadow: 0 0 30px rgba(212, 175, 55, 0.4), 0 4px 10px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.05em;
+}
+
+.game-tagline {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 1.5rem 0;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.game-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.stars {
+  color: #ffd700;
+  font-size: 1.3rem;
+  letter-spacing: 0.2em;
+}
+
+.rating-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+}
+
+.game-description {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+/* ============================================
+   MAIN GAME CONTAINER - TWO COLUMN LAYOUT
+   ============================================ */
+.game-container-professional {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+/* LEFT SIDE - GAME BOARD */
+.game-board-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* STATS BAR */
+.game-stats-bar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(11, 83, 69, 0.3), rgba(0, 50, 40, 0.4));
+  border: 2px solid rgba(212, 175, 55, 0.3);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+.stat-value {
+  font-size: 1.8rem;
+  color: #d4af37;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+}
+
+.payout-value {
+  color: #00ff88 !important;
+}
+
+/* WHEEL/REELS/CARDS DISPLAY SECTIONS */
+.wheel-section,
+.slots-display-section,
+.blackjack-table-display,
+.poker-table-display {
+  background: linear-gradient(180deg, rgba(0, 100, 80, 0.3), rgba(0, 50, 40, 0.5));
+  border: 3px solid #d4af37;
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: 0 0 50px rgba(212, 175, 55, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.wheel-section::before,
+.slots-display-section::before,
+.blackjack-table-display::before,
+.poker-table-display::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(212, 175, 55, 0.02) 2px, rgba(212, 175, 55, 0.02) 4px);
+  border-radius: 16px;
+  pointer-events: none;
+}
+
+.wheel-container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slots-container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.blackjack-table-display,
+.poker-table-display {
+  width: 100%;
+}
+
+.dealer-section,
+.player-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(212, 175, 55, 0.2);
+  border-radius: 12px;
+  width: 100%;
+}
+
+.hand-label {
+  font-size: 0.9rem;
+  color: #d4af37;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.cards-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  min-height: 150px;
+  width: 100%;
+}
+
+.hand-total,
+.hand-ranking {
+  color: #00ff88;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+}
+
+.game-message {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+/* ACTION BUTTONS */
+.game-action-buttons {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.game-action-buttons .btn {
+  width: 100%;
+}
+
+/* BET ADJUSTMENT BUTTONS */
+.bet-adjustment-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+/* CONTROL BUTTONS */
+.game-control-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+/* BETTING OPTIONS */
+.betting-options {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.betting-options .btn {
+  padding: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+/* ACTION BUTTONS */
+.action-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+/* RIGHT SIDE - INFORMATION PANEL */
+.info-panel-section {
+  background: linear-gradient(135deg, rgba(11, 83, 69, 0.2), rgba(0, 50, 40, 0.3));
+  border: 2px solid rgba(212, 175, 55, 0.3);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  height: fit-content;
+  position: sticky;
+  top: 2rem;
+}
+
+.info-panel-header {
+  border-bottom: 2px solid rgba(212, 175, 55, 0.3);
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-panel-header h3 {
+  margin: 0;
+  color: #d4af37;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* CARD STYLES */
+.payout-table-card,
+.rules-card,
+.rankings-card {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  color: #d4af37;
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+/* PAYOUT TABLE */
+.payout-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.payout-row {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.8rem;
+  background: rgba(212, 175, 55, 0.05);
+  border-radius: 6px;
+  border-left: 3px solid #d4af37;
+}
+
+.payout-symbol {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.payout-amount {
+  color: #d4af37;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* RULES LIST */
+.rules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.rule-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0.8rem;
+  background: rgba(212, 175, 55, 0.05);
+  border-radius: 6px;
+  align-items: center;
+}
+
+.rule-label {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+}
+
+.rule-value {
+  color: #d4af37;
+  font-weight: 600;
+  text-align: right;
+}
+
+/* RANKINGS CARD */
+.ranking-row {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 1rem;
+  padding: 0.8rem;
+  background: rgba(212, 175, 55, 0.05);
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+  align-items: start;
+  border-left: 3px solid #d4af37;
+}
+
+.ranking-number {
+  color: #d4af37;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.ranking-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.ranking-info strong {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
+}
+
+.ranking-info p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/* ============================================
+   GAME INFORMATION SECTION
+   ============================================ */
+.game-info-section {
+  max-width: 1400px;
+  margin: 3rem auto 0;
+  padding: 3rem 2rem;
+  background: linear-gradient(180deg, rgba(0, 50, 40, 0.3), rgba(0, 30, 20, 0.5));
+  border-top: 3px solid rgba(212, 175, 55, 0.3);
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 3rem;
+}
+
+.info-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-title {
+  color: #d4af37;
+  font-size: 1.5rem;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(212, 175, 55, 0.3);
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-item {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 1.5rem;
+}
+
+.info-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(212, 175, 55, 0.1));
+  border: 2px solid #d4af37;
+  border-radius: 50%;
+  color: #d4af37;
+  font-weight: 700;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.info-text strong {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.05rem;
+}
+
+.info-text p {
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* FEATURE ITEMS */
+.feature-item {
+  padding: 1rem;
+  background: rgba(212, 175, 55, 0.05);
+  border-left: 3px solid #d4af37;
+  border-radius: 6px;
+}
+
+.feature-item strong {
+  color: #d4af37;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.feature-item p {
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* ============================================
+   DISCLAIMER SECTION
+   ============================================ */
+.game-disclaimer-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05));
+  border: 2px solid rgba(212, 175, 55, 0.3);
+  border-radius: 12px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.disclaimer-content {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.disclaimer-content strong {
+  color: #d4af37;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+@media (max-width: 1024px) {
+  .game-container-professional {
+    grid-template-columns: 1fr;
+  }
+
+  .info-panel-section {
+    position: static;
+  }
+
+  .game-title-main {
+    font-size: 2.5rem;
+  }
+
+  .betting-options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .game-page-wrapper {
+    padding: 0;
+  }
+
+  .game-hero-section {
+    padding: 2rem 1rem;
+  }
+
+  .game-hero-content {
+    padding: 0 1rem;
+  }
+
+  .game-title-main {
+    font-size: 2rem;
+  }
+
+  .game-tagline {
+    font-size: 1.1rem;
+  }
+
+  .game-container-professional {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .game-stats-bar {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .betting-options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .action-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .info-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .game-disclaimer-section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .game-title-main {
+    font-size: 1.5rem;
+  }
+
+  .game-rating {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .game-description {
+    font-size: 0.9rem;
+  }
+
+  .betting-options {
+    grid-template-columns: 1fr;
+  }
+
+  .info-item {
+    grid-template-columns: 35px 1fr;
+    gap: 1rem;
+  }
+
+  .info-number {
+    width: 35px;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+}

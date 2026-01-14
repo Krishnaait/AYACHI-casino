@@ -574,6 +574,23 @@
 }
 
 /* ============================================
+   FOOTER POSITIONING FIX
+   ============================================ */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.game-page-wrapper {
+  flex: 1;
+}
+
+.global-footer {
+  margin-top: auto;
+}
+
+/* ============================================
    RESPONSIVE DESIGN
    ============================================ */
 @media (max-width: 1024px) {

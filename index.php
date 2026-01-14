@@ -155,7 +155,7 @@ include 'includes/header.php';
         gap: 30px;
     }
 
-    .feature-item {
+    .feature-card {
         background: rgba(212, 175, 55, 0.08);
         border: 1px solid rgba(212, 175, 55, 0.3);
         border-radius: 8px;
@@ -164,26 +164,36 @@ include 'includes/header.php';
         transition: all 0.3s ease;
     }
 
-    .feature-item:hover {
+    .feature-card:hover {
         background: rgba(212, 175, 55, 0.12);
         border-color: #d4af37;
         box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
         transform: translateY(-5px);
     }
 
-    .feature-icon {
-        font-size: 3.5rem;
+    .feature-image {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-bottom: 20px;
     }
 
-    .feature-item h3 {
+    .feature-image img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
+    .feature-card h3 {
         color: #d4af37;
         font-size: 1.4rem;
         margin-bottom: 12px;
         font-weight: 700;
     }
 
-    .feature-item p {
+    .feature-card p {
         color: #b0b0b0;
         font-size: 0.95rem;
         line-height: 1.7;
@@ -193,6 +203,13 @@ include 'includes/header.php';
     .games-section {
         padding: 80px 20px;
         background: linear-gradient(135deg, #0B5345 0%, #063D33 100%);
+    }
+
+    .section-subtitle {
+        text-align: center;
+        color: #b0b0b0;
+        font-size: 1.1rem;
+        margin-bottom: 50px;
     }
 
     .games-grid {
@@ -205,23 +222,9 @@ include 'includes/header.php';
         background: rgba(0, 0, 0, 0.3);
         border: 1px solid rgba(212, 175, 55, 0.3);
         border-radius: 8px;
-        padding: 30px;
-        text-align: center;
+        overflow: hidden;
         transition: all 0.3s ease;
         position: relative;
-        overflow: hidden;
-    }
-
-    .game-card::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(212, 175, 55, 0.05);
-        opacity: 0;
-        transition: opacity 0.3s ease;
     }
 
     .game-card:hover {
@@ -231,52 +234,94 @@ include 'includes/header.php';
         transform: translateY(-5px);
     }
 
-    .game-card:hover::before {
+    .game-image {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .game-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .game-card:hover .game-image img {
+        transform: scale(1.05);
+    }
+
+    .game-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .game-card:hover .game-overlay {
         opacity: 1;
     }
 
-    .game-card-content {
-        position: relative;
-        z-index: 2;
+    .play-button {
+        background: linear-gradient(135deg, #d4af37, #f4d03f);
+        color: #000;
+        padding: 14px 35px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1rem;
+        display: inline-block;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
     }
 
-    .game-icon {
-        font-size: 3rem;
-        margin-bottom: 15px;
+    .play-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 0 30px rgba(212, 175, 55, 0.8);
     }
 
-    .game-card h3 {
+    .game-info {
+        padding: 25px;
+    }
+
+    .game-info h3 {
         color: #d4af37;
         font-size: 1.3rem;
         margin-bottom: 10px;
         font-weight: 700;
     }
 
-    .game-card p {
+    .game-info p {
         color: #b0b0b0;
         font-size: 0.9rem;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         line-height: 1.6;
     }
 
-    .game-btn {
-        background: linear-gradient(135deg, #d4af37, #f4d03f);
-        color: #000;
-        padding: 10px 25px;
-        border-radius: 4px;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 0.9rem;
-        display: inline-block;
-        transition: all 0.3s ease;
-        box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
-        border: none;
-        cursor: pointer;
+    .game-specs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
     }
 
-    .game-btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 0 25px rgba(212, 175, 55, 0.6);
+    .game-specs span {
+        background: rgba(212, 175, 55, 0.15);
+        border: 1px solid rgba(212, 175, 55, 0.4);
+        color: #d4af37;
+        padding: 5px 12px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        font-weight: 600;
     }
 
     /* CTA Section */
@@ -334,6 +379,10 @@ include 'includes/header.php';
         .btn {
             width: 100%;
         }
+
+        .game-image {
+            height: 200px;
+        }
     }
 </style>
 
@@ -361,102 +410,161 @@ include 'includes/header.php';
     </div>
 </section>
 
-<!-- Features Section -->
+<!-- Features Section with Professional Images -->
 <section class="features-section" id="features">
     <div class="container">
         <h2 class="section-title">Why Choose AYACHI?</h2>
         
         <div class="features-grid">
-            <div class="feature-item">
-                <div class="feature-icon">🎰</div>
-                <h3>Realistic Mechanics</h3>
-                <p>All games feature authentic casino mechanics and fair algorithms for a genuine gaming experience.</p>
+            <!-- Feature 1: Mobile -->
+            <div class="feature-card">
+                <div class="feature-image">
+                    <img src="/public/images/feature_mobile.png" alt="Mobile Responsive">
+                </div>
+                <h3>Mobile Responsive</h3>
+                <p>Play on any device - desktop, tablet, or mobile. Seamless gaming experience everywhere.</p>
             </div>
-            
-            <div class="feature-item">
-                <div class="feature-icon">💰</div>
-                <h3>Credit System</h3>
-                <p>Start with 1000 free credits. Adjust bets, play multiple games, and reset anytime.</p>
+
+            <!-- Feature 2: Entertainment -->
+            <div class="feature-card">
+                <div class="feature-image">
+                    <img src="/public/images/feature_entertainment.png" alt="Pure Entertainment">
+                </div>
+                <h3>Pure Entertainment</h3>
+                <p>Enjoy authentic casino games designed for fun and excitement. No real money involved.</p>
             </div>
-            
-            <div class="feature-item">
-                <div class="feature-icon">🔊</div>
-                <h3>Sound Effects</h3>
-                <p>Immersive audio feedback with toggle-able sound. Experience authentic casino atmosphere.</p>
+
+            <!-- Feature 3: Sound -->
+            <div class="feature-card">
+                <div class="feature-image">
+                    <img src="/public/images/feature_sound.png" alt="Immersive Sound">
+                </div>
+                <h3>Immersive Sound</h3>
+                <p>Experience realistic casino sounds and effects. Toggle audio on or off anytime.</p>
             </div>
-            
-            <div class="feature-item">
-                <div class="feature-icon">🎯</div>
+
+            <!-- Feature 4: No Registration -->
+            <div class="feature-card">
+                <div class="feature-image">
+                    <img src="/public/images/feature_registration.png" alt="No Registration">
+                </div>
                 <h3>No Registration</h3>
-                <p>Play instantly without any signup or login. No personal information required.</p>
+                <p>Start playing instantly without any signup or personal information required.</p>
             </div>
-            
-            <div class="feature-item">
-                <div class="feature-icon">🎁</div>
-                <h3>Free Entertainment</h3>
-                <p>Completely free to play. No real money involved. No prizes or winnings given.</p>
+
+            <!-- Feature 5: Fair Mechanics -->
+            <div class="feature-card">
+                <div class="feature-image">
+                    <img src="/public/images/feature_mechanics.png" alt="Fair Mechanics">
+                </div>
+                <h3>Fair Game Mechanics</h3>
+                <p>Professional casino algorithms ensure fair and transparent gameplay for all players.</p>
             </div>
-            
-            <div class="feature-item">
-                <div class="feature-icon">📱</div>
-                <h3>Mobile Friendly</h3>
-                <p>Responsive design works perfectly on all devices - mobile, tablet, and desktop.</p>
+
+            <!-- Feature 6: Free Credits -->
+            <div class="feature-card">
+                <div class="feature-image">
+                    <img src="/public/images/feature_credit.png" alt="Free Credits">
+                </div>
+                <h3>1000 Free Credits</h3>
+                <p>Start with 1000 free credits. Reset anytime to enjoy unlimited gaming sessions.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Games Section -->
+<!-- Games Section with Professional Images -->
 <section class="games-section" id="games">
     <div class="container">
         <h2 class="section-title">Our Premium Games</h2>
+        <p class="section-subtitle">Choose from our professional collection of casino games</p>
         
         <div class="games-grid">
+            <!-- Slots Game -->
             <div class="game-card">
-                <div class="game-card-content">
-                    <div class="game-icon">🎰</div>
-                    <h3>SLOTS</h3>
-                    <p>Classic spinning reels with 6 different symbols. Adjust your bet and spin for exciting wins!</p>
-                    <a href="/games/slots.php" class="game-btn">PLAY NOW</a>
+                <div class="game-image">
+                    <img src="/public/images/game_slots.png" alt="Slots Game">
+                    <div class="game-overlay">
+                        <a href="/games/slots.php" class="play-button">PLAY NOW</a>
+                    </div>
+                </div>
+                <div class="game-info">
+                    <h3>🎰 SLOTS</h3>
+                    <p>Classic spinning reels with exciting symbols and winning combinations.</p>
+                    <div class="game-specs">
+                        <span>6 Symbols</span>
+                        <span>Auto Spin</span>
+                        <span>Max Win</span>
+                    </div>
                 </div>
             </div>
-            
+
+            <!-- Roulette Game -->
             <div class="game-card">
-                <div class="game-card-content">
-                    <div class="game-icon">🎡</div>
-                    <h3>ROULETTE</h3>
-                    <p>European roulette with 37 numbers. Place your bets on red, black, even, odd, or straight numbers.</p>
-                    <a href="/games/roulette.php" class="game-btn">PLAY NOW</a>
+                <div class="game-image">
+                    <img src="/public/images/game_roulette.png" alt="Roulette Game">
+                    <div class="game-overlay">
+                        <a href="/games/roulette.php" class="play-button">PLAY NOW</a>
+                    </div>
+                </div>
+                <div class="game-info">
+                    <h3>🎡 ROULETTE</h3>
+                    <p>European roulette with realistic wheel spin and multiple betting options.</p>
+                    <div class="game-specs">
+                        <span>37 Numbers</span>
+                        <span>Color Betting</span>
+                        <span>Straight Bets</span>
+                    </div>
                 </div>
             </div>
-            
+
+            <!-- Blackjack Game -->
             <div class="game-card">
-                <div class="game-card-content">
-                    <div class="game-icon">🎴</div>
-                    <h3>BLACKJACK</h3>
-                    <p>Beat the dealer with 21! Hit, stand, or double down. Professional dealer AI included.</p>
-                    <a href="/games/blackjack.php" class="game-btn">PLAY NOW</a>
+                <div class="game-image">
+                    <img src="/public/images/game_blackjack.png" alt="Blackjack Game">
+                    <div class="game-overlay">
+                        <a href="/games/blackjack.php" class="play-button">PLAY NOW</a>
+                    </div>
+                </div>
+                <div class="game-info">
+                    <h3>🎴 BLACKJACK</h3>
+                    <p>Classic card game with dealer AI and professional game mechanics.</p>
+                    <div class="game-specs">
+                        <span>Hit/Stand</span>
+                        <span>Dealer AI</span>
+                        <span>Card Values</span>
+                    </div>
                 </div>
             </div>
-            
+
+            <!-- Poker Game -->
             <div class="game-card">
-                <div class="game-card-content">
-                    <div class="game-icon">♠️</div>
-                    <h3>POKER</h3>
-                    <p>5-card draw poker with hand rankings from Royal Flush to High Card. Test your skills!</p>
-                    <a href="/games/poker.php" class="game-btn">PLAY NOW</a>
+                <div class="game-image">
+                    <img src="/public/images/game_poker.png" alt="Poker Game">
+                    <div class="game-overlay">
+                        <a href="/games/poker.php" class="play-button">PLAY NOW</a>
+                    </div>
+                </div>
+                <div class="game-info">
+                    <h3>♠️ POKER</h3>
+                    <p>5-card draw poker with hand rankings and strategic gameplay.</p>
+                    <div class="game-specs">
+                        <span>Hand Rankings</span>
+                        <span>Card Draw</span>
+                        <span>Dealer Compare</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- CTA Section -->
+<!-- Call to Action Section -->
 <section class="cta-section">
     <div class="container">
         <h2>Ready to Play?</h2>
-        <p>Start playing now with 1000 free credits. No registration required.</p>
-        <a href="#games" class="btn btn-primary" style="padding: 18px 50px; font-size: 1.1rem;">LAUNCH GAMES</a>
+        <p>Start your casino gaming experience today with AYACHI Casino</p>
+        <a href="#games" class="btn btn-primary" style="padding: 18px 50px; font-size: 1.1rem;">START PLAYING NOW</a>
     </div>
 </section>
 

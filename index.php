@@ -265,26 +265,34 @@
                 <div class="footer-section">
                     <h4>Company</h4>
                     <ul>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="pages/about-us.php">About Us</a></li>
+                        <li><a href="pages/contact-us.php">Contact</a></li>
+                        <li><a href="pages/blog.php">Blog</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Legal</h4>
                     <ul>
-                        <li><a href="#privacy">Privacy Policy</a></li>
-                        <li><a href="#terms">Terms & Conditions</a></li>
-                        <li><a href="#disclaimer">Disclaimer</a></li>
+                        <li><a href="pages/privacy-policy.php">Privacy Policy</a></li>
+                        <li><a href="pages/terms-conditions.php">Terms & Conditions</a></li>
+                        <li><a href="pages/disclaimer.php">Disclaimer</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Jackpoo</h4>
+                    <h4>Responsible Gaming</h4>
+                    <ul>
+                        <li><a href="pages/responsible-gaming.php">Responsible Gaming</a></li>
+                        <li><a href="pages/community-rules.php">Community Rules</a></li>
+                        <li><a href="pages/fair-policy.php">Fair Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>AYACHI Casino</h4>
                     <p>Premium free-to-play casino games for entertainment only.</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 AYACHI Healthcare Pvt. Ltd. All rights reserved.</p>
+                <p>&copy; 2026 AYACHI Healthcare Pvt. Ltd. All rights reserved. | CIN: U24110UP2020PTC135826</p>
                 <p><strong>FREE TO PLAY</strong> • No Real Money • No Prizes • Entertainment Only</p>
             </div>
         </div>

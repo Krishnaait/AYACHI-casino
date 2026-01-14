@@ -1,0 +1,409 @@
+/**
+ * AYACHI Casino - Pages CSS
+ * Styling for all static pages (Privacy, Terms, About, Contact, etc.)
+ */
+
+/* PAGE CONTAINER */
+.page-container {
+    min-height: calc(100vh - 200px);
+    padding: 3rem 0;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+}
+
+/* PAGE HEADER */
+.page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    border-bottom: 2px solid rgba(212, 175, 55, 0.3);
+}
+
+.page-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #d4af37;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 10px rgba(212, 175, 55, 0.2);
+}
+
+.page-header p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.last-updated {
+    color: rgba(212, 175, 55, 0.8);
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+}
+
+/* PAGE CONTENT */
+.page-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* POLICY SECTIONS */
+.policy-section {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.policy-section:last-child {
+    border-bottom: none;
+}
+
+.policy-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #d4af37;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.policy-section h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+    color: #00d4ff;
+    margin-bottom: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.policy-section p {
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.policy-section ul {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+    list-style: none;
+}
+
+.policy-section li {
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.8;
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.policy-section li:before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #d4af37;
+    font-weight: bold;
+}
+
+/* DISCLAIMER BOX */
+.disclaimer-box {
+    background: rgba(212, 175, 55, 0.1);
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.disclaimer-box p {
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background: rgba(0, 212, 255, 0.05);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.contact-info a {
+    color: #00d4ff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #d4af37;
+    text-decoration: underline;
+}
+
+/* COMPANY INFO BOX */
+.company-info-box {
+    background: rgba(212, 175, 55, 0.05);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 1.5rem 0;
+}
+
+.company-info-box p {
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0.75rem 0;
+    line-height: 1.8;
+}
+
+.company-info-box strong {
+    color: #d4af37;
+}
+
+/* CONTACT FORM STYLES */
+.contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin: 3rem 0;
+}
+
+.contact-form-container,
+.contact-info-container {
+    background: rgba(212, 175, 55, 0.05);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.contact-form-container h2,
+.contact-info-container h2 {
+    color: #d4af37;
+    margin-bottom: 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #d4af37;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-radius: 4px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #d4af37;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.contact-info-box {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.contact-info-box:last-child {
+    border-bottom: none;
+}
+
+.contact-info-box h3 {
+    color: #d4af37;
+    margin-bottom: 0.75rem;
+    font-family: 'Cinzel', serif;
+}
+
+.contact-info-box a {
+    color: #00d4ff;
+    text-decoration: none;
+}
+
+.contact-info-box a:hover {
+    text-decoration: underline;
+}
+
+.success-message {
+    background: rgba(76, 175, 80, 0.1);
+    border: 1px solid #4caf50;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    color: #4caf50;
+}
+
+/* FAQ STYLES */
+.faq-item {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-item h3 {
+    color: #d4af37;
+    margin-bottom: 0.75rem;
+    font-family: 'Cinzel', serif;
+}
+
+.faq-item p {
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.8;
+}
+
+/* BLOG STYLES */
+.blog-content {
+    margin: 2rem 0;
+}
+
+.blog-post {
+    background: rgba(212, 175, 55, 0.05);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+
+.blog-post:hover {
+    background: rgba(212, 175, 55, 0.08);
+    border-color: rgba(212, 175, 55, 0.4);
+}
+
+.blog-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.blog-header h2 {
+    color: #d4af37;
+    margin-bottom: 0.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.blog-meta {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.blog-excerpt h3 {
+    color: #00d4ff;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-family: 'Cinzel', serif;
+}
+
+.blog-excerpt p {
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.blog-excerpt ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+    list-style: none;
+}
+
+.blog-excerpt li {
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.blog-excerpt li:before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #d4af37;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .page-header p {
+        font-size: 1rem;
+    }
+
+    .policy-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-section {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .page-content {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header {
+        padding: 1rem 0;
+        margin-bottom: 2rem;
+    }
+
+    .page-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .policy-section {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .policy-section h2 {
+        font-size: 1.3rem;
+    }
+
+    .policy-section h3 {
+        font-size: 1.1rem;
+    }
+
+    .policy-section p {
+        font-size: 0.95rem;
+    }
+
+    .contact-form-container,
+    .contact-info-container {
+        padding: 1.5rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 0.6rem;
+        font-size: 0.95rem;
+    }
+}

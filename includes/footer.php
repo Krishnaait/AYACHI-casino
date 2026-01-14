@@ -37,6 +37,7 @@
                     <h4>Responsible Gaming</h4>
                     <ul>
                         <li><a href="/pages/responsible-gaming.php">Responsible Gaming</a></li>
+                        <li><a href="/pages/fair-policy.php">Fair Policy</a></li>
                         <li><a href="/pages/community-rules.php">Community Rules</a></li>
                     </ul>
                 </div>

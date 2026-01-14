@@ -36,8 +36,8 @@
             
             <nav class="global-nav">
                 <a href="/" class="nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'index.php') ? 'active' : ''; ?>">HOME</a>
-                <a href="/#games" class="nav-link">GAMES</a>
-                <a href="/#features" class="nav-link">FEATURES</a>
+                <a href="/pages/games.php" class="nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'games.php') ? 'active' : ''; ?>">GAMES</a>
+                <a href="/pages/features.php" class="nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'features.php') ? 'active' : ''; ?>">FEATURES</a>
                 <a href="/pages/contact-us.php" class="nav-link">CONTACT</a>
             </nav>
 

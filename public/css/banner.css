@@ -1,0 +1,473 @@
+/* ============================================
+   AYACHI CASINO - PROFESSIONAL BANNER
+   Roulette Wheel, Cards, Chips, Slots Design
+   ============================================ */
+
+.hero-banner {
+    background: linear-gradient(135deg, #0B5345 0%, #1a7a6e 50%, #063D33 100%);
+    background-image: 
+        radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(0, 255, 136, 0.08) 0%, transparent 50%),
+        linear-gradient(135deg, #0B5345 0%, #1a7a6e 50%, #063D33 100%);
+    padding: 60px 20px;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        radial-gradient(circle at 10% 20%, rgba(212, 175, 55, 0.1) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(0, 255, 136, 0.06) 0%, transparent 40%);
+    pointer-events: none;
+}
+
+.banner-container {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+/* ============================================
+   LEFT SIDE - CASINO ELEMENTS
+   ============================================ */
+
+.banner-left {
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ROULETTE WHEEL */
+.roulette-wheel {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+}
+
+.wheel-outer {
+    width: 100%;
+    height: 100%;
+    border: 8px solid #d4af37;
+    border-radius: 50%;
+    background: conic-gradient(
+        from 0deg,
+        #000 0deg 9.73deg,
+        #ff0000 9.73deg 19.46deg,
+        #000 19.46deg 29.19deg,
+        #ff0000 29.19deg 38.92deg,
+        #000 38.92deg 48.65deg,
+        #ff0000 48.65deg 58.38deg,
+        #000 58.38deg 68.11deg,
+        #ff0000 68.11deg 77.84deg,
+        #000 77.84deg 87.57deg,
+        #ff0000 87.57deg 97.3deg,
+        #000 97.3deg 107.03deg,
+        #ff0000 107.03deg 116.76deg,
+        #000 116.76deg 126.49deg,
+        #ff0000 126.49deg 136.22deg,
+        #000 136.22deg 145.95deg,
+        #ff0000 145.95deg 155.68deg,
+        #000 155.68deg 165.41deg,
+        #ff0000 165.41deg 175.14deg,
+        #000 175.14deg 184.87deg,
+        #ff0000 184.87deg 194.6deg,
+        #000 194.6deg 204.33deg,
+        #ff0000 204.33deg 214.06deg,
+        #000 214.06deg 223.79deg,
+        #ff0000 223.79deg 233.52deg,
+        #000 233.52deg 243.25deg,
+        #ff0000 243.25deg 252.98deg,
+        #000 252.98deg 262.71deg,
+        #ff0000 262.71deg 272.44deg,
+        #000 272.44deg 282.17deg,
+        #ff0000 282.17deg 291.9deg,
+        #000 291.9deg 301.63deg,
+        #ff0000 301.63deg 311.36deg,
+        #000 311.36deg 321.09deg,
+        #ff0000 321.09deg 330.82deg,
+        #000 330.82deg 340.55deg,
+        #ff0000 340.55deg 350.28deg,
+        #000 350.28deg 360deg
+    );
+    position: relative;
+    box-shadow: 
+        0 0 30px rgba(212, 175, 55, 0.6),
+        inset 0 0 20px rgba(0, 0, 0, 0.5);
+    animation: spin 8s linear infinite;
+}
+
+.wheel-center {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(circle, #d4af37, #b8860b);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.8);
+    z-index: 5;
+}
+
+.wheel-pointer {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 30px solid #d4af37;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 6;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.5));
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* PLAYING CARDS */
+.cards-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+    z-index: 2;
+}
+
+.card {
+    width: 70px;
+    height: 100px;
+    background: white;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transform: rotate(-15deg);
+}
+
+.card:nth-child(2) { transform: rotate(-5deg); }
+.card:nth-child(3) { transform: rotate(5deg); }
+.card:nth-child(4) { transform: rotate(15deg); }
+
+.card.hearts { color: #ff0000; }
+.card.spades { color: #000; }
+.card.diamonds { color: #ff0000; }
+.card.clubs { color: #000; }
+
+/* SLOT MACHINE */
+.slot-machine {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+
+.slot-frame {
+    width: 120px;
+    height: 140px;
+    background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+    border: 6px solid #d4af37;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 
+        0 8px 25px rgba(0, 0, 0, 0.5),
+        0 0 20px rgba(212, 175, 55, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.slot-reel {
+    width: 100%;
+    height: 35px;
+    background: linear-gradient(135deg, #1a1a1a, #0a0a0a);
+    border: 2px solid #d4af37;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d4af37;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.6);
+}
+
+/* POKER CHIPS */
+.chips-stack {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: -10px;
+}
+
+.chip {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    margin-top: -15px;
+    position: relative;
+}
+
+.chip:nth-child(1) {
+    background: linear-gradient(135deg, #ff6b6b, #ff0000);
+    z-index: 3;
+}
+
+.chip:nth-child(2) {
+    background: linear-gradient(135deg, #4ecdc4, #0099cc);
+    z-index: 2;
+}
+
+.chip:nth-child(3) {
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    color: #000;
+    z-index: 1;
+}
+
+.chip:nth-child(4) {
+    background: linear-gradient(135deg, #2a2a2a, #000);
+    z-index: 0;
+}
+
+/* ============================================
+   RIGHT SIDE - TEXT CONTENT
+   ============================================ */
+
+.banner-right {
+    text-align: left;
+    z-index: 3;
+}
+
+.banner-right h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #d4af37;
+    margin-bottom: 10px;
+    text-shadow: 
+        0 4px 15px rgba(212, 175, 55, 0.4),
+        0 0 20px rgba(212, 175, 55, 0.2);
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+.banner-right .subtitle {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.banner-right p {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-bottom: 25px;
+    line-height: 1.8;
+    max-width: 500px;
+}
+
+.banner-cta {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.banner-cta .btn {
+    padding: 15px 35px;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-play {
+    background: linear-gradient(135deg, #d4af37, #f4d03f);
+    color: #000;
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+}
+
+.btn-play:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.6);
+}
+
+.btn-learn {
+    background: transparent;
+    color: #d4af37;
+    border: 2px solid #d4af37;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+}
+
+.btn-learn:hover {
+    background: rgba(212, 175, 55, 0.1);
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.4);
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media (max-width: 1024px) {
+    .banner-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .banner-left {
+        height: 400px;
+    }
+    
+    .roulette-wheel {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .banner-right h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-banner {
+        padding: 40px 15px;
+        min-height: 500px;
+    }
+    
+    .banner-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .banner-left {
+        height: 350px;
+    }
+    
+    .roulette-wheel {
+        width: 200px;
+        height: 200px;
+        left: 10px;
+    }
+    
+    .cards-container {
+        gap: 10px;
+    }
+    
+    .card {
+        width: 50px;
+        height: 75px;
+        font-size: 24px;
+    }
+    
+    .slot-machine {
+        bottom: 30px;
+    }
+    
+    .slot-frame {
+        width: 100px;
+        height: 120px;
+    }
+    
+    .banner-right h1 {
+        font-size: 2rem;
+    }
+    
+    .banner-right p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-banner {
+        padding: 30px 10px;
+        min-height: 400px;
+    }
+    
+    .banner-left {
+        height: 250px;
+    }
+    
+    .roulette-wheel {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .cards-container {
+        gap: 5px;
+    }
+    
+    .card {
+        width: 40px;
+        height: 60px;
+        font-size: 18px;
+    }
+    
+    .slot-machine {
+        bottom: 20px;
+    }
+    
+    .slot-frame {
+        width: 80px;
+        height: 100px;
+    }
+    
+    .banner-right h1 {
+        font-size: 1.5rem;
+    }
+    
+    .banner-cta {
+        flex-direction: column;
+    }
+    
+    .banner-cta .btn {
+        width: 100%;
+    }
+}

@@ -1,7 +1,7 @@
 <?php
 /**
  * AYACHI CASINO - Homepage
- * Green Casino Theme with Professional Design
+ * Professional Casino Banner with Roulette, Cards, Chips, Slots
  * Free-to-Play Casino Games
  */
 ?>
@@ -21,6 +21,7 @@
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/banner.css">
     <link rel="stylesheet" href="/public/css/home.css">
 </head>
 <body>
@@ -40,26 +41,57 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>WELCOME TO AYACHI</h1>
-            <p>Experience the Thrill of Professional Casino Gaming</p>
-            
-            <p style="font-size: 1.1rem; margin-bottom: var(--spacing-lg);">
-                Play for fun. No real money. No registration. Just pure entertainment with realistic casino games.
-            </p>
-            
-            <div class="hero-badges">
-                <div class="badge">✓ Free to Play</div>
-                <div class="badge">✓ No Real Money</div>
-                <div class="badge">✓ No Prizes</div>
-                <div class="badge">✓ Pure Entertainment</div>
+    <!-- Professional Casino Banner -->
+    <section class="hero-banner">
+        <div class="banner-container">
+            <!-- Left Side - Casino Elements -->
+            <div class="banner-left">
+                <!-- Roulette Wheel -->
+                <div class="roulette-wheel">
+                    <div class="wheel-outer">
+                        <div class="wheel-center"></div>
+                        <div class="wheel-pointer"></div>
+                    </div>
+                </div>
+                
+                <!-- Playing Cards -->
+                <div class="cards-container">
+                    <div class="card spades">♠</div>
+                    <div class="card hearts">♥</div>
+                    <div class="card diamonds">♦</div>
+                    <div class="card clubs">♣</div>
+                </div>
+                
+                <!-- Slot Machine -->
+                <div class="slot-machine">
+                    <div class="slot-frame">
+                        <div class="slot-reel">7</div>
+                        <div class="slot-reel">7</div>
+                        <div class="slot-reel">7</div>
+                    </div>
+                </div>
+                
+                <!-- Poker Chips -->
+                <div class="chips-stack">
+                    <div class="chip">💰</div>
+                    <div class="chip">💰</div>
+                    <div class="chip">💰</div>
+                    <div class="chip">💰</div>
+                </div>
             </div>
             
-            <div class="hero-buttons">
-                <a href="#games" class="btn btn-primary btn-lg">PLAY FOR FREE</a>
-                <a href="#features" class="btn btn-secondary btn-lg">LEARN MORE</a>
+            <!-- Right Side - Text Content -->
+            <div class="banner-right">
+                <h1>AYACHI</h1>
+                <p class="subtitle">Experience Premium Casino Gaming</p>
+                <p>
+                    Play for fun. No real money. No registration. Just pure entertainment with realistic casino games. 
+                    Start with 1000 free credits and enjoy the thrill of professional casino gameplay.
+                </p>
+                <div class="banner-cta">
+                    <a href="#games" class="btn btn-play">PLAY FOR FREE</a>
+                    <a href="#features" class="btn btn-learn">LEARN MORE</a>
+                </div>
             </div>
         </div>
     </section>

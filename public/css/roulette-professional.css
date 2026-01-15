@@ -13,13 +13,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
     border-radius: 50%;
     padding: 20px;
     box-shadow: 
-        0 0 60px rgba(212, 175, 55, 0.3),
-        inset 0 0 40px rgba(0, 0, 0, 0.5),
-        0 30px 60px rgba(0, 0, 0, 0.8);
+        0 0 80px rgba(212, 175, 55, 0.35),
+        inset 0 0 50px rgba(0, 0, 0, 0.6),
+        0 40px 80px rgba(0, 0, 0, 0.8);
 }
 
 /* WHEEL IMAGE WITH PREMIUM LIGHTING */
@@ -35,21 +35,30 @@
 
 /* SPINNING ANIMATION - CASINO AUTHENTIC */
 .professional-wheel.spinning .wheel-image {
-    animation: wheelSpinCasino 5s cubic-bezier(0.17, 0.67, 0.12, 0.98) forwards;
+    animation: wheelSpinCasino 6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 @keyframes wheelSpinCasino {
     0% {
         transform: rotate(0deg);
     }
-    75% {
+    15% {
+        transform: rotate(900deg);
+    }
+    35% {
+        transform: rotate(1800deg);
+    }
+    60% {
+        transform: rotate(2880deg);
+    }
+    80% {
         transform: rotate(3420deg);
     }
-    85% {
+    90% {
         transform: rotate(3510deg);
     }
     95% {
-        transform: rotate(3456deg);
+        transform: rotate(3480deg);
     }
     100% {
         transform: rotate(3456deg);

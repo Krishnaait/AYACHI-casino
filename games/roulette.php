@@ -244,6 +244,25 @@ include '../includes/header.php';
                     <div class="game-message">
                         <?php echo (count($bets) > 0) ? 'Ready to spin!' : 'Place your bets and spin!'; ?>
                     </div>
+
+                    <!-- SPINNING HISTORY DISPLAY -->
+                    <div class="spinning-history">
+                        <div class="history-label">Recent Spins</div>
+                        <div class="history-numbers">
+                            <?php 
+                            // Simulate history - in production this would be stored in database
+                            if ($last_spin !== null) {
+                                $is_red = in_array($last_spin, $RED_NUMBERS);
+                                $color_class = $last_spin === 0 ? 'green' : ($is_red ? 'red' : 'black');
+                                echo '<div class="history-number ' . $color_class . '">' . $last_spin . '</div>';
+                            }
+                            // Show placeholder slots for other recent spins
+                            for ($i = 0; $i < 9; $i++) {
+                                echo '<div class="history-number placeholder">—</div>';
+                            }
+                            ?>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- ACTION BUTTONS -->
@@ -983,6 +1002,78 @@ include '../includes/header.php';
             .btn {
                 width: 100%;
             }
+        }
+
+        /* SPINNING HISTORY DISPLAY */
+        .spinning-history {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            border-radius: 10px;
+        }
+
+        .history-label {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.75);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .history-numbers {
+            display: flex;
+            gap: 0.6rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .history-number {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 1rem;
+            border: 2px solid rgba(212, 175, 55, 0.3);
+            color: rgba(255, 255, 255, 0.9);
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05));
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .history-number:hover {
+            transform: scale(1.15);
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+        }
+
+        .history-number.red {
+            background: linear-gradient(135deg, rgba(220, 53, 69, 0.3), rgba(220, 53, 69, 0.1));
+            border-color: rgba(220, 53, 69, 0.6);
+            color: #ff6b6b;
+            box-shadow: 0 0 12px rgba(220, 53, 69, 0.2);
+        }
+
+        .history-number.black {
+            background: linear-gradient(135deg, rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.1));
+            border-color: rgba(100, 100, 100, 0.5);
+            color: #e0e0e0;
+            box-shadow: 0 0 12px rgba(50, 50, 50, 0.2);
+        }
+
+        .history-number.green {
+            background: linear-gradient(135deg, rgba(0, 200, 100, 0.3), rgba(0, 200, 100, 0.1));
+            border-color: rgba(0, 200, 100, 0.6);
+            color: #00ff88;
+            box-shadow: 0 0 12px rgba(0, 255, 136, 0.3);
+        }
+
+        .history-number.placeholder {
+            opacity: 0.4;
+            color: rgba(255, 255, 255, 0.4);
         }
     </style>
 

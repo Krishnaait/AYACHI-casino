@@ -8,7 +8,7 @@ include '../includes/header.php';
 ?>
 
     <!-- PAGE WRAPPER -->
-    <div class="page-wrapper" style="display: flex; flex-direction: column; min-height: 100vh;">
+    <div class="page-wrapper">
         
         <!-- PAGE HERO SECTION -->
         <div class="page-hero-section">
@@ -23,7 +23,7 @@ include '../includes/header.php';
         </div>
 
         <!-- PAGE CONTENT -->
-        <div class="page-container" style="flex: 1;">
+        <div class="page-container">
             <div class="container">
                 <div class="page-content">
                     

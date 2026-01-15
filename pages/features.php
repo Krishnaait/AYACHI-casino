@@ -8,7 +8,7 @@ include '../includes/header.php';
 ?>
 
     <!-- FEATURES PAGE WRAPPER -->
-    <div class="features-page-wrapper" style="display: flex; flex-direction: column; min-height: calc(100vh - 100px);">
+    <div class="page-wrapper">
         
         <!-- PAGE HERO SECTION -->
         <div class="page-hero-section">
@@ -23,7 +23,8 @@ include '../includes/header.php';
         </div>
 
         <!-- FEATURES GRID SECTION -->
-        <div class="features-grid-container">
+        <div class="page-container">
+            <div class="features-grid-container">
             <div class="features-grid">
                 
                 <!-- FEATURE 1: MOBILE RESPONSIVE -->
@@ -190,6 +191,7 @@ include '../includes/header.php';
                         <p>All games use virtual credits - no real money involved</p>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
 

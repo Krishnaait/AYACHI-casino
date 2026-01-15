@@ -3,11 +3,32 @@
  * Styling for all static pages (Privacy, Terms, About, Contact, etc.)
  */
 
-/* PAGE CONTAINER */
+/* PAGE WRAPPER - ENSURES FOOTER AT BOTTOM */
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+    background: linear-gradient(180deg, rgba(0, 30, 20, 0.9), rgba(0, 50, 40, 0.95));
+}
+
+/* PAGE HERO SECTION */
+.page-hero-section {
+    flex-shrink: 0;
+    padding: 3rem 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(212, 175, 55, 0.2);
+}
+
+/* PAGE CONTAINER - FLEX GROWS TO FILL SPACE */
 .page-container {
-    min-height: calc(100vh - 200px);
-    padding: 3rem 0;
+    flex: 1;
+    padding: 3rem 2rem;
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 /* PAGE HEADER */
@@ -675,18 +696,6 @@
     color: rgba(255, 255, 255, 0.85);
     padding: 0.5rem 0;
     padding-left: 1.5rem;
-}
-
-/* PAGE WRAPPER ADJUSTMENTS */
-.page-wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background: linear-gradient(180deg, rgba(0, 30, 20, 0.9), rgba(0, 50, 40, 0.95));
-}
-
-.page-container {
-    flex: 1;
 }
 
 /* Tablet/Mobile Responsive */

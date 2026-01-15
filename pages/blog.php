@@ -7,7 +7,7 @@ include '../includes/header.php';
 ?>
 
     <!-- PAGE WRAPPER -->
-    <div class="page-wrapper" style="display: flex; flex-direction: column; min-height: calc(100vh - 100px);">
+    <div class="page-wrapper">
         
         <!-- PAGE HERO SECTION -->
         <div class="page-hero-section">

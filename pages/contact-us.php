@@ -100,36 +100,14 @@ include '../includes/header.php';
                             </div>
 
                             <div class="contact-info-box">
-                                <h3>Email</h3>
+                                <h3>Email Support</h3>
                                 <p>
-                                    <strong>General Inquiries:</strong><br>
-                                    <a href="mailto:info@ayachi.com">info@ayachi.com</a>
-                                </p>
-                                <p>
-                                    <strong>Support:</strong><br>
+                                    <strong>Support & Inquiries:</strong><br>
                                     <a href="mailto:support@ayachi.com">support@ayachi.com</a>
                                 </p>
                                 <p>
-                                    <strong>Technical Issues:</strong><br>
-                                    <a href="mailto:tech@ayachi.com">tech@ayachi.com</a>
-                                </p>
-                            </div>
-
-                            <div class="contact-info-box">
-                                <h3>Phone</h3>
-                                <p>
-                                    <strong>24/7 Support:</strong><br>
-                                    <a href="tel:+919999999999">+91-9999-999-999</a>
-                                </p>
-                            </div>
-
-                            <div class="contact-info-box">
-                                <h3>Business Hours</h3>
-                                <p>
-                                    Monday - Friday: 9:00 AM - 6:00 PM IST<br>
-                                    Saturday: 10:00 AM - 4:00 PM IST<br>
-                                    Sunday: Closed<br>
-                                    <strong>24/7 Support Available</strong>
+                                    <strong>Report Violations:</strong><br>
+                                    <a href="mailto:report@ayachi.com">report@ayachi.com</a>
                                 </p>
                             </div>
 

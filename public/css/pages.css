@@ -407,3 +407,343 @@
         font-size: 0.95rem;
     }
 }
+
+/* ============================================
+   ABOUT PAGE SPECIFIC STYLES
+   ============================================ */
+
+.about-intro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.about-intro-text h2 {
+    color: #d4af37;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+}
+
+.about-intro-text p {
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.about-intro-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.professional-card {
+    background: linear-gradient(135deg, rgba(11, 83, 69, 0.3), rgba(0, 100, 80, 0.2));
+    border: 2px solid rgba(212, 175, 55, 0.3);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    min-width: 200px;
+}
+
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #d4af37;
+    font-weight: 600;
+}
+
+.mission-vision-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.mission-box, .vision-box {
+    background: linear-gradient(135deg, rgba(11, 83, 69, 0.2), rgba(0, 100, 80, 0.15));
+    border: 2px solid rgba(212, 175, 55, 0.2);
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.mission-box h3, .vision-box h3 {
+    color: #d4af37;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.mission-box p, .vision-box p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+}
+
+.company-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.info-card {
+    background: linear-gradient(135deg, rgba(11, 83, 69, 0.15), rgba(0, 100, 80, 0.1));
+    border: 2px solid rgba(212, 175, 55, 0.2);
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+.info-card h4 {
+    color: #d4af37;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.info-card p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.info-card a {
+    color: #00d4ff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.info-card a:hover {
+    color: #d4af37;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.value-card {
+    background: linear-gradient(135deg, rgba(11, 83, 69, 0.2), rgba(0, 100, 80, 0.15));
+    border: 2px solid rgba(212, 175, 55, 0.2);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.value-card:hover {
+    border-color: #d4af37;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+    transform: translateY(-5px);
+}
+
+.value-icon {
+    font-size: 2rem;
+    color: #d4af37;
+    margin-bottom: 0.5rem;
+}
+
+.value-card h4 {
+    color: #d4af37;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.value-card p {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.section-intro {
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+}
+
+.games-showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.game-showcase-card {
+    background: linear-gradient(135deg, rgba(11, 83, 69, 0.15), rgba(0, 100, 80, 0.1));
+    border: 2px solid rgba(212, 175, 55, 0.2);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.game-showcase-card:hover {
+    border-color: #d4af37;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+    background: linear-gradient(135deg, rgba(11, 83, 69, 0.25), rgba(0, 100, 80, 0.15));
+}
+
+.game-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.game-showcase-card h4 {
+    color: #d4af37;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.game-showcase-card p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.benefit-item {
+    background: linear-gradient(135deg, rgba(11, 83, 69, 0.2), rgba(0, 100, 80, 0.15));
+    border: 2px solid rgba(212, 175, 55, 0.2);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.benefit-item:hover {
+    border-color: #d4af37;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+}
+
+.benefit-icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.benefit-item h4 {
+    color: #d4af37;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.benefit-item p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.disclaimer-section {
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(0, 100, 80, 0.05));
+    border: 2px solid rgba(212, 175, 55, 0.3);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.disclaimer-box {
+    background: rgba(0, 0, 0, 0.3);
+    border-left: 4px solid #d4af37;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.disclaimer-box p {
+    color: #d4af37;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.disclaimer-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.disclaimer-box ul li {
+    color: rgba(255, 255, 255, 0.85);
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+}
+
+/* PAGE WRAPPER ADJUSTMENTS */
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(0, 30, 20, 0.9), rgba(0, 50, 40, 0.95));
+}
+
+.page-container {
+    flex: 1;
+}
+
+/* Tablet/Mobile Responsive */
+@media (max-width: 768px) {
+    .about-intro-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .mission-vision-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .company-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .values-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    .games-showcase-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .about-intro-grid {
+        gap: 1.5rem;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .games-showcase-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .professional-card {
+        min-width: auto;
+        padding: 1.5rem;
+    }
+
+    .disclaimer-section {
+        padding: 1.5rem;
+    }
+
+    .disclaimer-box {
+        padding: 1rem;
+    }
+}

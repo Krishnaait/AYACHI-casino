@@ -34,11 +34,11 @@
                 </div>
 
                 <div class="footer-section">
-                    <h4>Responsible Gaming</h4>
+                    <h4>Support</h4>
                     <ul>
                         <li><a href="/pages/responsible-gaming.php">Responsible Gaming</a></li>
-                        <li><a href="/pages/fair-policy.php">Fair Policy</a></li>
                         <li><a href="/pages/community-rules.php">Community Rules</a></li>
+                        <li><a href="mailto:support@ayachi.com">Email Support</a></li>
                     </ul>
                 </div>
             </div>

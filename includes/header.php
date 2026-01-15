@@ -29,7 +29,7 @@
         <div class="header-container">
             <div class="logo-section">
                 <a href="/" class="logo">
-                    <span class="logo-icon">AY</span>
+                    <img src="/public/images/ayachi_logo.webp" alt="AYACHI Casino Logo" class="logo-image">
                     <span class="logo-text">AYACHI</span>
                 </a>
             </div>

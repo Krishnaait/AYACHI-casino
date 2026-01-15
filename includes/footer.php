@@ -9,8 +9,14 @@
         <div class="footer-container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>AYACHI</h3>
+                    <div class="footer-logo">
+                        <img src="/public/images/ayachi_logo.webp" alt="AYACHI Casino Logo" class="footer-logo-image">
+                    </div>
                     <p>Premium free-to-play casino games. Experience authentic gaming without real money.</p>
+                    <div class="company-details">
+                        <p><strong>CIN:</strong> U24110UP2020PTC135826</p>
+                        <p><strong>GST:</strong> 09AUCA1674K1Z1</p>
+                    </div>
                 </div>
 
                 <div class="footer-section">
@@ -38,7 +44,6 @@
                     <ul>
                         <li><a href="/pages/responsible-gaming.php">Responsible Gaming</a></li>
                         <li><a href="/pages/community-rules.php">Community Rules</a></li>
-                        <li><a href="mailto:support@ayachi.com">Email Support</a></li>
                     </ul>
                 </div>
             </div>

@@ -555,11 +555,6 @@ include 'includes/header.php';
         <h2>Ready to Play?</h2>
         <p>Start your casino gaming experience today with AYACHI-CASINO</p>
         <a href="#games" class="btn btn-primary" style="padding: 18px 50px; font-size: 1.1rem;">START PLAYING NOW</a>
-        <p style="margin-top: 30px; font-size: 0.85rem; color: #888; letter-spacing: 0.5px;">
-            © 2026 AYACHI Healthcare Pvt. Ltd. All Rights Reserved.<br>
-            CIN: U24110UP2020PTC135826 | GST: 09AUCA1674K1Z1<br>
-            <span style="font-size: 0.8rem; margin-top: 8px; display: block;">Last Updated: January 2026</span>
-        </p>
     </div>
 </section>
 

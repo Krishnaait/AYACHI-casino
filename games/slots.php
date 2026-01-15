@@ -1,6 +1,6 @@
 <?php
 /**
- * SLOTS GAME - AYACHI Casino
+ * SLOTS GAME - AYACHI-CASINO
  * Using Global Header & Footer
  */
 $page_title = "Slots";

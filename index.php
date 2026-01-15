@@ -552,7 +552,7 @@ include 'includes/header.php';
 <section class="cta-section">
     <div class="container">
         <h2>Ready to Play?</h2>
-        <p>Start your casino gaming experience today with AYACHI Casino</p>
+        <p>Start your casino gaming experience today with AYACHI-CASINO</p>
         <a href="#games" class="btn btn-primary" style="padding: 18px 50px; font-size: 1.1rem;">START PLAYING NOW</a>
     </div>
 </section>

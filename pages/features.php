@@ -1,6 +1,6 @@
 <?php
 /**
- * FEATURES PAGE - AYACHI Casino
+ * FEATURES PAGE - AYACHI-CASINO
  * Displays all platform features
  */
 $page_title = "Features";
@@ -16,7 +16,7 @@ include '../includes/header.php';
                 <h1 class="page-title">✨ WHY CHOOSE AYACHI?</h1>
                 <p class="page-tagline">Premium Features for the Ultimate Gaming Experience</p>
                 <p class="page-description">
-                    AYACHI Casino combines professional-grade gaming with complete freedom. 
+                    AYACHI-CASINO combines professional-grade gaming with complete freedom. 
                     Play your favorite casino games without any financial risk or registration hassles.
                 </p>
             </div>
@@ -170,7 +170,7 @@ include '../includes/header.php';
             <div class="responsible-gaming-content">
                 <h2 class="section-title">🎯 Responsible Gaming</h2>
                 <p class="section-description">
-                    We are committed to promoting responsible gaming. AYACHI Casino is designed purely for entertainment. 
+                    We are committed to promoting responsible gaming. AYACHI-CASINO is designed purely for entertainment. 
                     Remember that all games are based on chance, and there is no guarantee of winning.
                 </p>
                 <div class="responsible-gaming-grid">
@@ -198,7 +198,7 @@ include '../includes/header.php';
         <!-- DISCLAIMER SECTION -->
         <div class="page-disclaimer-section">
             <div class="disclaimer-content">
-                <strong>⚠ Disclaimer:</strong> AYACHI Casino is a free-to-play entertainment platform. 
+                <strong>⚠ Disclaimer:</strong> AYACHI-CASINO is a free-to-play entertainment platform. 
                 No real money is involved. No prizes or winnings are given. This is entertainment only. 
                 Players must be 18 years or older.
             </div>

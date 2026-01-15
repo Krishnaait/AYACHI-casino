@@ -1,7 +1,7 @@
 <?php
 /**
  * Global Footer Component
- * Used across all pages in AYACHI Casino
+ * Used across all pages in AYACHI-CASINO
  */
 ?>
     <!-- Global Footer -->
@@ -10,7 +10,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <img src="/public/images/ayachi_logo.webp" alt="AYACHI Casino Logo" class="footer-logo-image">
+                        <img src="/public/images/ayachi_logo.webp" alt="AYACHI-CASINO Logo" class="footer-logo-image">
                     </div>
                     <p>Premium free-to-play casino games. Experience authentic gaming without real money.</p>
                     <div class="company-details">

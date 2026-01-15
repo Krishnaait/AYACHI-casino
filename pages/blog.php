@@ -1,6 +1,6 @@
 <?php
 /**
- * BLOG PAGE - AYACHI Casino
+ * BLOG PAGE - AYACHI-CASINO
  */
 $page_title = "Blog";
 include '../includes/header.php';
@@ -40,14 +40,14 @@ include '../includes/header.php';
                             <h3>House Edge</h3>
                             <p>
                                 The house edge is the mathematical advantage that the casino has over players. It's built into every game 
-                                and ensures the casino makes a profit over time. At AYACHI Casino, all games have transparent house edges:
+                                and ensures the casino makes a profit over time. At AYACHI-CASINO, all games have transparent house edges:
                             </p>
                             <ul>
                                 <li>Slots: 3-5% house edge (95-97% RTP)</li>                                <li>Blackjack: 1% house edge (99% RTP with basic strategy)</li>
                                 <li>Poker: 2% house edge (98% RTP)</li>
                             </ul>
                             <p>
-                                Remember, since AYACHI Casino is free-to-play with no real money involved, these odds are purely for 
+                                Remember, since AYACHI-CASINO is free-to-play with no real money involved, these odds are purely for 
                                 educational and entertainment purposes.
                             </p>
                         </div>
@@ -60,7 +60,7 @@ include '../includes/header.php';
                         </div>
                         <div class="blog-excerpt">
                             <p>
-                                Even though AYACHI Casino is completely free and no real money is involved, developing healthy gaming habits 
+                                Even though AYACHI-CASINO is completely free and no real money is involved, developing healthy gaming habits 
                                 is important. Here are some tips to help you enjoy our games responsibly.
                             </p>
                             <h3>Set Time Limits</h3>
@@ -75,7 +75,7 @@ include '../includes/header.php';
                             </p>
                             <h3>Play for Fun, Not Profit</h3>
                             <p>
-                                Remember that AYACHI Casino is entertainment only. There are no real prizes or winnings. Play because you 
+                                Remember that AYACHI-CASINO is entertainment only. There are no real prizes or winnings. Play because you 
                                 enjoy the games, not because you expect to gain anything.
                             </p>
                             <h3>Don't Chase Losses</h3>
@@ -117,7 +117,7 @@ include '../includes/header.php';
                             <h3>Why Strategy Matters</h3>
                             <p>
                                 Using basic strategy can reduce the house edge to about 1%, giving you the best odds in casino games. 
-                                At AYACHI Casino, you can practice these strategies with our free blackjack game.
+                                At AYACHI-CASINO, you can practice these strategies with our free blackjack game.
                             </p>
                         </div>
                     </article>
@@ -153,17 +153,17 @@ include '../includes/header.php';
 
                     <article class="blog-post">
                         <div class="blog-header">
-                            <h2>Welcome to AYACHI Casino - Your Free Gaming Destination</h2>
+                            <h2>Welcome to AYACHI-CASINO - Your Free Gaming Destination</h2>
                             <p class="blog-meta">Published: January 1, 2026 | Category: News</p>
                         </div>
                         <div class="blog-excerpt">
                             <p>
-                                Welcome to AYACHI Casino, your ultimate destination for free-to-play casino gaming! We're excited to launch 
+                                Welcome to AYACHI-CASINO, your ultimate destination for free-to-play casino gaming! We're excited to launch 
                                 our platform and share our passion for entertainment with you.
                             </p>
                             <h3>What We Offer</h3>
                             <p>
-                                AYACHI Casino provides four premium games - Slots, Blackjack, and Poker - all completely free to play. 
+                                AYACHI-CASINO provides four premium games - Slots, Blackjack, and Poker - all completely free to play. 
                                 No real money is involved, no registration is required, and no prizes are given. It's pure entertainment.
                             </p>
                             <h3>Our Commitment</h3>

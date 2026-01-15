@@ -1,6 +1,6 @@
 <?php
 /**
- * CONTACT US PAGE - AYACHI Casino
+ * CONTACT US PAGE - AYACHI-CASINO
  * Contact form and information
  */
 
@@ -91,7 +91,7 @@ include '../includes/header.php';
                             <div class="contact-info-box">
                                 <h3>Office Address</h3>
                                 <p>
-                                    AYACHI Casino<br>
+                                    AYACHI-CASINO<br>
                                     H. NO. 1/104, NEW JIA MAU<br>
                                     NEAR PARAG, ATM<br>
                                     LUCKNOW, Uttar Pradesh, 226001<br>
@@ -133,9 +133,9 @@ include '../includes/header.php';
                         </div>
 
                         <div class="faq-item">
-                            <h3>Is AYACHI Casino free to play?</h3>
+                            <h3>Is AYACHI-CASINO free to play?</h3>
                             <p>
-                                Yes! AYACHI Casino is completely free. No real money is involved. You play with virtual credits 
+                                Yes! AYACHI-CASINO is completely free. No real money is involved. You play with virtual credits 
                                 for entertainment only.
                             </p>
                         </div>
@@ -175,7 +175,7 @@ include '../includes/header.php';
                         <div class="faq-item">
                             <h3>Can I play on mobile?</h3>
                             <p>
-                                Yes! AYACHI Casino is fully responsive and works on all devices - desktop, tablet, and mobile. 
+                                Yes! AYACHI-CASINO is fully responsive and works on all devices - desktop, tablet, and mobile. 
                                 Enjoy the same great experience on any device.
                             </p>
                         </div>
@@ -183,7 +183,7 @@ include '../includes/header.php';
                         <div class="faq-item">
                             <h3>What is the minimum age requirement?</h3>
                             <p>
-                                You must be 18 years or older to use AYACHI Casino. By using our platform, you confirm that you 
+                                You must be 18 years or older to use AYACHI-CASINO. By using our platform, you confirm that you 
                                 meet this age requirement.
                             </p>
                         </div>
@@ -191,7 +191,7 @@ include '../includes/header.php';
 
                     <section class="policy-section disclaimer-box">
                         <p>
-                            <strong>⚠ Contact Notice:</strong> We appreciate your interest in AYACHI Casino. 
+                            <strong>⚠ Contact Notice:</strong> We appreciate your interest in AYACHI-CASINO. 
                             We aim to respond to all inquiries within 24 hours. For urgent matters, please call our 24/7 support line.
                         </p>
                     </section>

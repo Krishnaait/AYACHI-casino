@@ -1,7 +1,7 @@
 <?php
 /**
  * Global Header Component
- * Used across all pages in AYACHI Casino
+ * Used across all pages in AYACHI-CASINO
  */
 ?>
 <!DOCTYPE html>
@@ -9,7 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($page_title) ? $page_title . ' - AYACHI Casino' : 'AYACHI - Premium Casino Games | Play for Free'; ?></title>
+    <title><?php echo isset($page_title) ? $page_title . ' - AYACHI-CASINO' : 'AYACHI - Premium Casino Games | Play for Free'; ?></title>
     <link rel="stylesheet" href="/public/css/global.css">
     <link rel="stylesheet" href="/public/css/style.css">
     <link rel="stylesheet" href="/public/css/banner.css">
@@ -29,7 +29,7 @@
         <div class="header-container">
             <div class="logo-section">
                 <a href="/" class="logo">
-                    <img src="/public/images/ayachi_logo.webp" alt="AYACHI Casino Logo" class="logo-image">
+                    <img src="/public/images/ayachi_logo.webp" alt="AYACHI-CASINO Logo" class="logo-image">
                     <span class="logo-text">AYACHI</span>
                 </a>
             </div>

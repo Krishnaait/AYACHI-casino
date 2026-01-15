@@ -1,6 +1,6 @@
 <?php
 /**
- * COMMUNITY RULES PAGE - AYACHI Casino
+ * COMMUNITY RULES PAGE - AYACHI-CASINO
  */
 $page_title = "Community Rules";
 include '../includes/header.php';
@@ -22,9 +22,9 @@ include '../includes/header.php';
             <div class="container">
                 <div class="page-content">
                     <section class="policy-section">
-                        <h2>Welcome to AYACHI Casino Community</h2>
+                        <h2>Welcome to AYACHI-CASINO Community</h2>
                         <p>
-                            AYACHI Casino is a community of players who enjoy free-to-play casino games for entertainment. 
+                            AYACHI-CASINO is a community of players who enjoy free-to-play casino games for entertainment. 
                             To maintain a positive, fair, and enjoyable environment for all players, we have established these 
                             Community Rules. By using our platform, you agree to follow these rules.
                         </p>
@@ -157,7 +157,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>Community Moderation</h2>
                         <p>
-                            AYACHI Casino maintains a moderation team to:
+                            AYACHI-CASINO maintains a moderation team to:
                         </p>
                         <ul>
                             <li>Monitor platform activity for violations</li>
@@ -171,7 +171,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>Updates to Community Rules</h2>
                         <p>
-                            AYACHI Casino reserves the right to update these Community Rules at any time. Players will be notified 
+                            AYACHI-CASINO reserves the right to update these Community Rules at any time. Players will be notified 
                             of significant changes. Continued use of the platform indicates acceptance of updated rules.
                         </p>
                     </section>
@@ -182,7 +182,7 @@ include '../includes/header.php';
                             For questions about Community Rules or to report violations:
                         </p>
                         <div class="contact-info">
-                            <p><strong>AYACHI Casino</strong></p>
+                            <p><strong>AYACHI-CASINO</strong></p>
                             <p>H. NO. 1/104, NEW JIA MAU, NEAR PARAG, ATM</p>
                             <p>LUCKNOW, Uttar Pradesh, 226001</p>
                             <p>Email: <a href="mailto:community@ayachi.com">community@ayachi.com</a></p>

@@ -1,6 +1,6 @@
 <?php
 /**
- * POKER GAME - AYACHI Casino
+ * POKER GAME - AYACHI-CASINO
  * Using Global Header & Footer
  */
 $page_title = "Poker";

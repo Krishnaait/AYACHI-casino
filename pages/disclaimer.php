@@ -1,6 +1,6 @@
 <?php
 /**
- * DISCLAIMER PAGE - AYACHI Casino
+ * DISCLAIMER PAGE - AYACHI-CASINO
  */
 $page_title = "Disclaimer";
 include '../includes/header.php';
@@ -24,7 +24,7 @@ include '../includes/header.php';
                     <section class="policy-section disclaimer-highlight">
                         <h2>⚠ IMPORTANT DISCLAIMER</h2>
                         <p>
-                            <strong>AYACHI Casino is a FREE-TO-PLAY entertainment platform. 
+                            <strong>AYACHI-CASINO is a FREE-TO-PLAY entertainment platform. 
                             NO REAL MONEY is involved. NO PRIZES or WINNINGS are given to players. 
                             This platform is for entertainment purposes only.</strong>
                         </p>
@@ -33,7 +33,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>1. Entertainment Only</h2>
                         <p>
-                            AYACHI Casino is provided solely for entertainment purposes. All games are designed as recreational 
+                            AYACHI-CASINO is provided solely for entertainment purposes. All games are designed as recreational 
                             activities with no real-world monetary value or consequences. Players should understand that:
                         </p>
                         <ul>
@@ -49,7 +49,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>2. Age Restrictions</h2>
                         <p>
-                            AYACHI Casino is intended for users 18 years of age and older. By accessing and using this platform, 
+                            AYACHI-CASINO is intended for users 18 years of age and older. By accessing and using this platform, 
                             you represent and warrant that you are at least 18 years of age. We do not knowingly allow users under 
                             18 to use our service.
                         </p>
@@ -58,7 +58,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>3. No Real Money Transactions</h2>
                         <p>
-                            AYACHI Casino does not accept, process, or handle real money in any form. All transactions are virtual. 
+                            AYACHI-CASINO does not accept, process, or handle real money in any form. All transactions are virtual. 
                             We do not:
                         </p>
                         <ul>
@@ -73,7 +73,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>4. No Liability for Game Outcomes</h2>
                         <p>
-                            While all games use fair RNG algorithms, AYACHI Casino is not liable for:
+                            While all games use fair RNG algorithms, AYACHI-CASINO is not liable for:
                         </p>
                         <ul>
                             <li>Any game outcomes or results</li>
@@ -116,8 +116,8 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>7. Intellectual Property</h2>
                         <p>
-                            All content on AYACHI Casino, including but not limited to game designs, graphics, text, and software, 
-                            is the intellectual property of AYACHI Casino Unauthorized reproduction or distribution 
+                            All content on AYACHI-CASINO, including but not limited to game designs, graphics, text, and software, 
+                            is the intellectual property of AYACHI-CASINO Unauthorized reproduction or distribution 
                             is prohibited.
                         </p>
                     </section>
@@ -125,7 +125,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>8. Third-Party Links</h2>
                         <p>
-                            AYACHI Casino may contain links to third-party websites. We are not responsible for the content, 
+                            AYACHI-CASINO may contain links to third-party websites. We are not responsible for the content, 
                             accuracy, or practices of external websites. Your use of third-party sites is at your own risk and 
                             subject to their terms and conditions.
                         </p>
@@ -134,7 +134,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>9. Availability and Modifications</h2>
                         <p>
-                            AYACHI Casino is provided "as is" without warranties. We reserve the right to:
+                            AYACHI-CASINO is provided "as is" without warranties. We reserve the right to:
                         </p>
                         <ul>
                             <li>Modify or discontinue the service at any time</li>
@@ -148,7 +148,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>10. Geographic Restrictions</h2>
                         <p>
-                            AYACHI Casino may not be available in all jurisdictions. Users are responsible for ensuring their use 
+                            AYACHI-CASINO may not be available in all jurisdictions. Users are responsible for ensuring their use 
                             complies with local laws and regulations. We reserve the right to restrict access from certain regions.
                         </p>
                     </section>
@@ -156,7 +156,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>11. Limitation of Liability</h2>
                         <p>
-                            To the maximum extent permitted by law, AYACHI Casino shall not be liable for:
+                            To the maximum extent permitted by law, AYACHI-CASINO shall not be liable for:
                         </p>
                         <ul>
                             <li>Direct, indirect, or consequential damages</li>
@@ -193,7 +193,7 @@ include '../includes/header.php';
                         <h2>14. Entire Agreement</h2>
                         <p>
                             This disclaimer, along with our Terms & Conditions and Privacy Policy, constitutes the entire agreement 
-                            between you and AYACHI Casino regarding the use of AYACHI Casino.
+                            between you and AYACHI-CASINO regarding the use of AYACHI-CASINO.
                         </p>
                     </section>
 
@@ -203,7 +203,7 @@ include '../includes/header.php';
                             If you have questions about this disclaimer, please contact us:
                         </p>
                         <div class="contact-info">
-                            <p><strong>AYACHI Casino</strong></p>
+                            <p><strong>AYACHI-CASINO</strong></p>
                             <p>H. NO. 1/104, NEW JIA MAU, NEAR PARAG, ATM</p>
                             <p>LUCKNOW, Uttar Pradesh, 226001</p>
                             <p>Email: <a href="mailto:legal@ayachi.com">legal@ayachi.com</a></p>
@@ -214,7 +214,7 @@ include '../includes/header.php';
                     <section class="policy-section disclaimer-highlight">
                         <h2>⚠ FINAL DISCLAIMER</h2>
                         <p>
-                            <strong>By using AYACHI Casino, you acknowledge and agree that:</strong>
+                            <strong>By using AYACHI-CASINO, you acknowledge and agree that:</strong>
                         </p>
                         <ul>
                             <li>This is a free-to-play entertainment platform only</li>
@@ -226,7 +226,7 @@ include '../includes/header.php';
                             <li>You accept all limitations of liability</li>
                         </ul>
                         <p>
-                            <strong>If you do not agree with these terms, please do not use AYACHI Casino.</strong>
+                            <strong>If you do not agree with these terms, please do not use AYACHI-CASINO.</strong>
                         </p>
                     </section>
                 </div>

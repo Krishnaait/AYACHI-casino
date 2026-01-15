@@ -1,6 +1,6 @@
 <?php
 /**
- * BLACKJACK GAME - AYACHI Casino
+ * BLACKJACK GAME - AYACHI-CASINO
  * Using Global Header & Footer
  */
 $page_title = "Blackjack";

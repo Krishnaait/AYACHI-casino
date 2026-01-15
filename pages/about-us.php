@@ -1,6 +1,6 @@
 <?php
 /**
- * ABOUT US PAGE - AYACHI Casino
+ * ABOUT US PAGE - AYACHI-CASINO
  * Company information and mission
  */
 $page_title = "About Us";
@@ -13,7 +13,7 @@ include '../includes/header.php';
         <!-- PAGE HERO SECTION -->
         <div class="page-hero-section">
             <div class="page-hero-content">
-                <h1 class="page-title">About AYACHI Casino</h1>
+                <h1 class="page-title">About AYACHI-CASINO</h1>
                 <p class="page-tagline">Premium Free-to-Play Gaming Platform</p>
                 <p class="page-description">
                     Experience professional-grade casino games designed purely for entertainment. 
@@ -31,9 +31,9 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <div class="about-intro-grid">
                             <div class="about-intro-text">
-                                <h2>Welcome to AYACHI Casino</h2>
+                                <h2>Welcome to AYACHI-CASINO</h2>
                                 <p>
-                                    AYACHI Casino is a premium free-to-play gaming platform dedicated to providing world-class entertainment 
+                                    AYACHI-CASINO is a premium free-to-play gaming platform dedicated to providing world-class entertainment 
                                     through realistic, fair, and engaging casino games. We believe gaming should be fun, accessible, and 
                                     completely free from financial risk.
                                 </p>
@@ -80,7 +80,7 @@ include '../includes/header.php';
                         <div class="company-info-grid">
                             <div class="info-card">
                                 <h4>🏢 Legal Details</h4>
-                                <p><strong>Company:</strong> AYACHI Casino</p>
+                                <p><strong>Company:</strong> AYACHI Healthcare Pvt. Ltd.</p>
                                 <p><strong>CIN:</strong> U24110UP2020PTC135826</p>
                                 <p><strong>GST No:</strong> 09AAUCA1674K1Z1</p>
                                 <p><strong>PAN No:</strong> AAUCA1674K</p>
@@ -139,7 +139,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>Our Premium Games</h2>
                         <p class="section-intro">
-                            AYACHI Casino offers four professionally designed games, each with authentic casino mechanics:
+                            AYACHI-CASINO offers three professionally designed games, each with authentic casino mechanics:
                         </p>
                         <div class="games-showcase-grid">
                             <div class="game-showcase-card">
@@ -147,9 +147,7 @@ include '../includes/header.php';
                                 <h4>Slots</h4>
                                 <p>Classic slot machines with realistic spinning reels, multiple symbols, and authentic payout mechanics</p>
                             </div>
-                            <div class="game-showcase-card">
-                                <div class="game-icon">🎡</div>
-                                                            </div>
+
                             <div class="game-showcase-card">
                                 <div class="game-icon">🎴</div>
                                 <h4>Blackjack</h4>
@@ -165,7 +163,7 @@ include '../includes/header.php';
 
                     <!-- WHY CHOOSE US -->
                     <section class="policy-section">
-                        <h2>Why Choose AYACHI Casino?</h2>
+                        <h2>Why Choose AYACHI-CASINO?</h2>
                         <div class="benefits-grid">
                             <div class="benefit-item">
                                 <span class="benefit-icon">🆓</span>
@@ -215,7 +213,7 @@ include '../includes/header.php';
                         <h2>Entertainment Purpose Only</h2>
                         <div class="disclaimer-box">
                             <p>
-                                <strong>⚠️ Important Notice:</strong> AYACHI Casino is designed purely for entertainment purposes only. 
+                                <strong>⚠️ Important Notice:</strong> AYACHI-CASINO is designed purely for entertainment purposes only. 
                                 We want to emphasize:
                             </p>
                             <ul>
@@ -244,7 +242,7 @@ include '../includes/header.php';
                             We'd love to hear from you. Contact us anytime:
                         </p>
                         <div class="contact-info">
-                            <p><strong>AYACHI Casino</strong></p>
+                            <p><strong>AYACHI-CASINO</strong></p>
                             <p>H. NO. 1/104, NEW JIA MAU, NEAR PARAG, ATM</p>
                             <p>LUCKNOW, Uttar Pradesh, 226001</p>
                             <p>Email: <a href="mailto:info@ayachi.com">info@ayachi.com</a></p>
@@ -257,7 +255,7 @@ include '../includes/header.php';
 
                     <section class="policy-section disclaimer-box">
                         <p>
-                            <strong>⚠ Disclaimer:</strong> AYACHI Casino is a free-to-play entertainment platform. 
+                            <strong>⚠ Disclaimer:</strong> AYACHI-CASINO is a free-to-play entertainment platform. 
                             No real money is involved. No prizes or winnings are given. This is entertainment only. 
                             Players must be 18 years or older.
                         </p>

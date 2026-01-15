@@ -1,6 +1,6 @@
 <?php
 /**
- * FAIR POLICY PAGE - AYACHI Casino
+ * FAIR POLICY PAGE - AYACHI-CASINO
  */
 $page_title = "Fair Policy";
 include '../includes/header.php';
@@ -25,7 +25,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>Our Commitment to Fair Play</h2>
                         <p>
-                            At AYACHI Casino, we are committed to providing a fair, transparent, and enjoyable gaming experience 
+                            At AYACHI-CASINO, we are committed to providing a fair, transparent, and enjoyable gaming experience 
                             for all our players. This Fair Play Policy outlines our commitment to fairness and transparency in all 
                             our games.
                         </p>
@@ -34,7 +34,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>Random Number Generation (RNG)</h2>
                         <p>
-                            All games at AYACHI Casino use certified Random Number Generation (RNG) algorithms to ensure fair and 
+                            All games at AYACHI-CASINO use certified Random Number Generation (RNG) algorithms to ensure fair and 
                             unpredictable outcomes. Our RNG system:
                         </p>
                         <ul>
@@ -90,7 +90,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>House Edge and Payout Percentages</h2>
                         <p>
-                            All games at AYACHI Casino have transparent house edges and payout percentages:
+                            All games at AYACHI-CASINO have transparent house edges and payout percentages:
                         </p>
                         <ul>
                             <li><strong>Slots:</strong> 95-97% RTP (Return to Player)</li>                            <li><strong>Blackjack:</strong> 99% RTP (with basic strategy)</li>
@@ -162,7 +162,7 @@ include '../includes/header.php';
                             For questions about our fair play policy or to report concerns, please contact us at:
                         </p>
                         <div class="contact-info">
-                            <p><strong>AYACHI Casino</strong></p>
+                            <p><strong>AYACHI-CASINO</strong></p>
                             <p>H. NO. 1/104, NEW JIA MAU, NEAR PARAG, ATM</p>
                             <p>LUCKNOW, Uttar Pradesh, 226001</p>
                             <p>Email: <a href="mailto:fairplay@ayachi.com">fairplay@ayachi.com</a></p>

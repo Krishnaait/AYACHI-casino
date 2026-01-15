@@ -1,6 +1,6 @@
 <?php
 /**
- * RESPONSIBLE GAMING PAGE - AYACHI Casino
+ * RESPONSIBLE GAMING PAGE - AYACHI-CASINO
  */
 $page_title = "Responsible Gaming";
 include '../includes/header.php';
@@ -24,7 +24,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>Our Commitment to Responsible Gaming</h2>
                         <p>
-                            At AYACHI Casino, we are committed to promoting responsible gaming practices. While our platform is 
+                            At AYACHI-CASINO, we are committed to promoting responsible gaming practices. While our platform is 
                             designed for entertainment purposes only with no real money involved, we believe it's important to educate 
                             players about healthy gaming habits and provide resources for support.
                         </p>
@@ -36,7 +36,7 @@ include '../includes/header.php';
                             Before you play, please remember:
                         </p>
                         <ul>
-                            <li><strong>Entertainment Only:</strong> AYACHI Casino games are for entertainment purposes only</li>
+                            <li><strong>Entertainment Only:</strong> AYACHI-CASINO games are for entertainment purposes only</li>
                             <li><strong>No Real Money:</strong> No real money is involved in any game</li>
                             <li><strong>No Prizes:</strong> No prizes or real winnings are given to players</li>
                             <li><strong>Virtual Credits:</strong> All credits are virtual and have no real monetary value</li>
@@ -147,7 +147,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>Our Commitment</h2>
                         <p>
-                            AYACHI Casino is committed to:
+                            AYACHI-CASINO is committed to:
                         </p>
                         <ul>
                             <li>Promoting responsible gaming practices</li>
@@ -164,7 +164,7 @@ include '../includes/header.php';
                             For questions about responsible gaming or to seek support, please contact us:
                         </p>
                         <div class="contact-info">
-                            <p><strong>AYACHI Casino</strong></p>
+                            <p><strong>AYACHI-CASINO</strong></p>
                             <p>H. NO. 1/104, NEW JIA MAU, NEAR PARAG, ATM</p>
                             <p>LUCKNOW, Uttar Pradesh, 226001</p>
                             <p>Email: <a href="mailto:support@ayachi.com">support@ayachi.com</a></p>
@@ -177,7 +177,7 @@ include '../includes/header.php';
                         <p>
                             <strong>⚠ Responsible Gaming Notice:</strong> Gaming should be for entertainment only. 
                             If you feel you're developing a problem with gaming, please seek help immediately. 
-                            No real money is involved in AYACHI Casino games.
+                            No real money is involved in AYACHI-CASINO games.
                         </p>
                     </section>
                 </div>

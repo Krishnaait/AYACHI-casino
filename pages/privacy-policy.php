@@ -1,6 +1,6 @@
 <?php
 /**
- * PRIVACY POLICY PAGE - AYACHI Casino
+ * PRIVACY POLICY PAGE - AYACHI-CASINO
  * Data protection and privacy information
  */
 $page_title = "Privacy Policy";
@@ -26,7 +26,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>1. Introduction</h2>
                         <p>
-                            AYACHI Casino ("Company," "we," "us," or "our") operates the AYACHI Casino website 
+                            AYACHI-CASINO ("Company," "we," "us," or "our") operates the AYACHI-CASINO website 
                             (the "Service"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information 
                             when you visit our website and use our services.
                         </p>
@@ -155,7 +155,7 @@ include '../includes/header.php';
                             If you have questions about this Privacy Policy or our privacy practices, please contact us at:
                         </p>
                         <div class="contact-info">
-                            <p><strong>AYACHI Casino</strong></p>
+                            <p><strong>AYACHI-CASINO</strong></p>
                             <p>H. NO. 1/104, NEW JIA MAU, NEAR PARAG, ATM</p>
                             <p>LUCKNOW, Uttar Pradesh, 226001</p>
                             <p>Email: <a href="mailto:privacy@ayachi.com">privacy@ayachi.com</a></p>

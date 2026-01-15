@@ -1,6 +1,6 @@
 <?php
 /**
- * GAMES PAGE - AYACHI Casino
+ * GAMES PAGE - AYACHI-CASINO
  * Displays all available games
  */
 $page_title = "Games";

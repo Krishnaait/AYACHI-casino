@@ -409,37 +409,42 @@ include '../includes/header.php';
         .game-stats-bar {
             display: flex;
             justify-content: space-around;
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05));
-            border: 2px solid rgba(212, 175, 55, 0.3);
-            padding: 1.5rem;
-            border-radius: 12px;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.15), rgba(212, 175, 55, 0.08));
+            border: 2px solid rgba(212, 175, 55, 0.4);
+            padding: 2rem 1.5rem;
+            border-radius: 14px;
             gap: 2rem;
+            box-shadow: 
+                0 8px 25px rgba(0, 0, 0, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
         }
 
         .stat-item {
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.75rem;
         }
 
         .stat-label {
-            font-size: 0.9rem;
-            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.75);
             text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 600;
+            letter-spacing: 1.5px;
+            font-weight: 700;
         }
 
         .stat-value {
-            font-size: 1.8rem;
-            color: #d4af37;
-            font-weight: 700;
+            font-size: 2rem;
+            color: #ffeb3b;
+            font-weight: 900;
             font-family: 'Courier New', monospace;
+            text-shadow: 0 0 10px rgba(255, 235, 59, 0.5);
         }
 
         .payout-value {
             color: #00ff88;
+            text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
         }
 
         .wheel-section {
@@ -531,91 +536,122 @@ include '../includes/header.php';
         }
 
         .btn {
-            padding: 12px 30px;
+            padding: 14px 32px;
             border: none;
-            border-radius: 6px;
+            border-radius: 8px;
             font-weight: 700;
             font-size: 1rem;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
         }
 
         .btn-primary {
-            background: linear-gradient(135deg, #d4af37, #f0d570);
-            color: #0d2a22;
-            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+            background: linear-gradient(135deg, #ffeb3b 0%, #ffd700 50%, #ffb300 100%);
+            color: #000;
+            box-shadow: 
+                0 6px 20px rgba(255, 235, 59, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.3);
         }
 
         .btn-primary:hover:not(:disabled) {
+            transform: translateY(-4px);
+            box-shadow: 
+                0 12px 35px rgba(255, 235, 59, 0.6),
+                0 0 20px rgba(255, 235, 59, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.5);
+        }
+
+        .btn-primary:active:not(:disabled) {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6);
         }
 
         .btn-primary:disabled {
-            opacity: 0.5;
+            opacity: 0.4;
             cursor: not-allowed;
+            transform: none;
         }
 
         .btn-secondary {
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(212, 175, 55, 0.1));
-            color: #d4af37;
-            border: 2px solid rgba(212, 175, 55, 0.4);
+            background: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%);
+            color: #000;
+            font-weight: 600;
+            box-shadow: 
+                0 6px 20px rgba(0, 212, 255, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
         }
 
         .btn-secondary:hover:not(:disabled) {
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.3), rgba(212, 175, 55, 0.2));
-            border-color: #d4af37;
+            transform: translateY(-4px);
+            box-shadow: 
+                0 12px 35px rgba(0, 212, 255, 0.5),
+                0 0 15px rgba(0, 212, 255, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-secondary:active:not(:disabled) {
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            transform: none;
         }
 
         .btn-lg {
-            padding: 15px 40px;
-            font-size: 1.1rem;
+            padding: 16px 45px;
+            font-size: 1.15rem;
         }
 
-        /* BETTING PANEL */
+        /* BETTING PANEL - CASINO VIP STYLE */
         .betting-panel-section {
             display: flex;
             flex-direction: column;
-            gap: 1.5rem;
+            gap: 2rem;
         }
 
         .betting-options {
-            background: linear-gradient(135deg, rgba(13, 42, 34, 0.9), rgba(11, 83, 69, 0.9));
-            border: 2px solid rgba(212, 175, 55, 0.3);
-            padding: 1.5rem;
-            border-radius: 12px;
+            background: linear-gradient(135deg, rgba(13, 42, 34, 0.95), rgba(0, 0, 0, 0.8));
+            border: 2px solid rgba(212, 175, 55, 0.4);
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 
+                0 10px 40px rgba(0, 0, 0, 0.5),
+                inset 0 1px 0 rgba(212, 175, 55, 0.1);
         }
 
         .betting-title {
             font-family: 'Cinzel', serif;
-            font-size: 1.3rem;
-            color: #d4af37;
-            margin: 0 0 1rem 0;
+            font-size: 1.4rem;
+            color: #ffeb3b;
+            margin: 0 0 1.5rem 0;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 2px;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
         }
 
         .quick-bets {
             margin-bottom: 1.5rem;
             padding-bottom: 1.5rem;
-            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.25);
         }
 
         .quick-bets h4 {
-            color: rgba(255, 255, 255, 0.8);
-            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 0.85rem;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 0.8rem;
-            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            font-weight: 700;
         }
 
         .quick-bets-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 0.6rem;
+            gap: 0.8rem;
         }
 
         .quick-bet-form {
@@ -625,47 +661,73 @@ include '../includes/header.php';
         .quick-bet-btn {
             display: block;
             width: 100%;
-            padding: 0.8rem;
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.15), rgba(212, 175, 55, 0.05));
-            border: 2px solid rgba(212, 175, 55, 0.3);
-            color: rgba(255, 255, 255, 0.9);
-            border-radius: 6px;
+            padding: 1rem 0.8rem;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(212, 175, 55, 0.1));
+            border: 2px solid rgba(212, 175, 55, 0.35);
+            color: rgba(255, 255, 255, 0.95);
+            border-radius: 8px;
             cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: 600;
-            font-size: 0.9rem;
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            font-weight: 700;
+            font-size: 0.95rem;
             font-family: inherit;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
         }
 
         .quick-bet-btn:hover {
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.3), rgba(212, 175, 55, 0.2));
-            border-color: #d4af37;
-            color: #d4af37;
-            transform: translateX(5px);
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.35), rgba(212, 175, 55, 0.25));
+            border-color: #ffeb3b;
+            color: #ffeb3b;
+            transform: translateY(-3px);
+            box-shadow: 
+                0 8px 20px rgba(212, 175, 55, 0.4),
+                0 0 12px rgba(212, 175, 55, 0.3);
+        }
+
+        .quick-bet-btn:active {
+            transform: translateY(-1px);
         }
 
         .number-grid-section {
-            margin-top: 1rem;
+            margin-top: 1.5rem;
         }
 
         .number-grid-section h4 {
-            color: rgba(255, 255, 255, 0.8);
-            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 0.85rem;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 0.8rem;
-            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            font-weight: 700;
         }
 
         .number-grid {
             display: grid;
             grid-template-columns: repeat(6, 1fr);
-            gap: 0.4rem;
-            max-height: 200px;
+            gap: 0.5rem;
+            max-height: 220px;
             overflow-y: auto;
-            padding: 0.5rem;
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: 6px;
+            padding: 0.8rem;
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
+            border-radius: 8px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .number-grid::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .number-grid::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .number-grid::-webkit-scrollbar-thumb {
+            background: rgba(212, 175, 55, 0.3);
+            border-radius: 3px;
+        }
+
+        .number-grid::-webkit-scrollbar-thumb:hover {
+            background: rgba(212, 175, 55, 0.5);
         }
 
         .number-bet-form {
@@ -673,23 +735,31 @@ include '../includes/header.php';
         }
 
         .number-btn {
-            padding: 0.6rem;
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05));
+            padding: 0.7rem 0.5rem;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.15), rgba(212, 175, 55, 0.08));
             border: 2px solid rgba(212, 175, 55, 0.3);
-            color: rgba(255, 255, 255, 0.8);
-            border-radius: 4px;
+            color: rgba(255, 255, 255, 0.85);
+            border-radius: 6px;
             cursor: pointer;
             transition: all 0.3s ease;
-            font-weight: 600;
+            font-weight: 700;
             font-size: 0.85rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
             font-family: inherit;
         }
 
         .number-btn:hover {
-            background: linear-gradient(135deg, #d4af37, #f0d570);
-            color: #0d2a22;
-            border-color: #d4af37;
-            transform: scale(1.1);
+            background: linear-gradient(135deg, rgba(255, 235, 59, 0.3), rgba(255, 235, 59, 0.2));
+            color: #ffeb3b;
+            border-color: #ffeb3b;
+            transform: scale(1.12);
+            box-shadow: 
+                0 4px 15px rgba(212, 175, 55, 0.3),
+                0 0 8px rgba(212, 175, 55, 0.2);
+        }
+
+        .number-btn:active {
+            transform: scale(1.05);
         }
 
         .number-btn.red {
@@ -730,12 +800,103 @@ include '../includes/header.php';
 
         /* PLACED BETS */
         .placed-bets-container {
-            background: linear-gradient(135deg, rgba(13, 42, 34, 0.9), rgba(11, 83, 69, 0.9));
-            border: 2px solid rgba(212, 175, 55, 0.3);
-            padding: 1.5rem;
-            border-radius: 12px;
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(13, 42, 34, 0.8));
+            border: 2px solid rgba(212, 175, 55, 0.35);
+            padding: 1.8rem;
+            border-radius: 14px;
             max-height: 300px;
             overflow-y: auto;
+            box-shadow: 
+                0 8px 25px rgba(0, 0, 0, 0.4),
+                inset 0 1px 0 rgba(212, 175, 55, 0.1);
+        }
+
+        .placed-bets-container::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .placed-bets-container::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .placed-bets-container::-webkit-scrollbar-thumb {
+            background: rgba(212, 175, 55, 0.3);
+            border-radius: 3px;
+        }
+
+        .placed-bets-container::-webkit-scrollbar-thumb:hover {
+            background: rgba(212, 175, 55, 0.5);
+        }
+
+        .placed-bets-header {
+            font-family: 'Cinzel', serif;
+            font-size: 1.1rem;
+            color: #ffeb3b;
+            margin-bottom: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .bet-item {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05));
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            padding: 1rem;
+            margin-bottom: 0.8rem;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .bet-item:hover {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.15), rgba(212, 175, 55, 0.1));
+            border-color: rgba(212, 175, 55, 0.5);
+            transform: translateX(5px);
+        }
+
+        .bet-label {
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 700;
+            flex: 1;
+        }
+
+        .bet-amount {
+            color: #ffeb3b;
+            font-weight: 700;
+            font-family: 'Courier New', monospace;
+            margin: 0 1rem;
+        }
+
+        /* GAME MESSAGE BANNER */
+        .game-message-banner {
+            background: linear-gradient(135deg, rgba(255, 235, 59, 0.15), rgba(255, 235, 59, 0.08));
+            border-left: 4px solid #ffeb3b;
+            padding: 1.5rem 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 15px rgba(255, 235, 59, 0.2);
+            animation: messageBounce 0.5s ease-out;
+        }
+
+        @keyframes messageBounce {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message-content {
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing: 0.5px;
         }
 
         .bets-title {

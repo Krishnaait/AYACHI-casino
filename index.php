@@ -399,6 +399,7 @@ include 'includes/header.php';
     <div class="hero-content">
         <h1 class="hero-title">AYACHI</h1>
         <p class="hero-subtitle">Experience Premium Casino Gaming</p>
+        <p style="font-size: 0.9rem; color: #d4af37; margin-bottom: 15px; letter-spacing: 0.5px; font-weight: 600;">Owned & Operated by AYACHI Healthcare Pvt. Ltd.</p>
         <p class="hero-description">
             Play for fun. No real money. No registration. Just pure entertainment with realistic casino games. 
             Start with 1000 free credits and enjoy the thrill of professional casino gameplay.
@@ -554,6 +555,10 @@ include 'includes/header.php';
         <h2>Ready to Play?</h2>
         <p>Start your casino gaming experience today with AYACHI-CASINO</p>
         <a href="#games" class="btn btn-primary" style="padding: 18px 50px; font-size: 1.1rem;">START PLAYING NOW</a>
+        <p style="margin-top: 30px; font-size: 0.85rem; color: #888; letter-spacing: 0.5px;">
+            © 2024 AYACHI Healthcare Pvt. Ltd. All Rights Reserved.<br>
+            CIN: U24110UP2020PTC135826 | GST: 09AUCA1674K1Z1
+        </p>
     </div>
 </section>
 

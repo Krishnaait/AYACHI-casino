@@ -53,7 +53,7 @@
                     <p>⚠️ <strong>Disclaimer:</strong> This is a free-to-play gaming platform for entertainment purposes only. No real money is involved. No prizes or winnings are given to players. Players must be 18 years or older.</p>
                 </div>
                 <div class="footer-copyright">
-                    <p>&copy; 2026 AYACHI. All rights reserved. | Play for Fun | No Real Money | Pure Entertainment</p>
+                    <p>&copy; 2026 AYACHI Healthcare Pvt. Ltd. All rights reserved. | Play for Fun | No Real Money | Pure Entertainment</p>
                 </div>
             </div>
         </div>

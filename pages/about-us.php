@@ -90,11 +90,7 @@ include '../includes/header.php';
                                 <p><strong>Address:</strong></p>
                                 <p>H. NO. 1/104, NEW JIA MAU<br>NEAR PARAG, ATM<br>LUCKNOW, Uttar Pradesh<br>226001, India</p>
                             </div>
-                            <div class="info-card">
-                                <h4>📧 Support</h4>
-                                <p><strong>Email:</strong><br><a href="mailto:support@ayachi.com">support@ayachi.com</a></p>
-                                <p><strong>Report Violations:</strong><br><a href="mailto:report@ayachi.com">report@ayachi.com</a></p>
-                            </div>
+
                         </div>
                     </section>
 
@@ -226,40 +222,6 @@ include '../includes/header.php';
                         </div>
                     </section>
 
-                </div>
-            </div>
-        </div>
-                            <li>No prizes or real winnings are given to players</li>
-                            <li>All credits are virtual and have no monetary value</li>
-                            <li>Games are based on chance, not skill or strategy</li>
-                            <li>This is entertainment, not a source of income</li>
-                        </ul>
-                    </section>
-
-                    <section class="policy-section">
-                        <h2>Contact Us</h2>
-                        <p>
-                            We'd love to hear from you. Contact us anytime:
-                        </p>
-                        <div class="contact-info">
-                            <p><strong>AYACHI-CASINO</strong></p>
-                            <p>H. NO. 1/104, NEW JIA MAU, NEAR PARAG, ATM</p>
-                            <p>LUCKNOW, Uttar Pradesh, 226001</p>
-                            <p>Email: <a href="mailto:info@ayachi.com">info@ayachi.com</a></p>
-                            <p>Support: <a href="mailto:support@ayachi.com">support@ayachi.com</a></p>
-                            <p>Phone: <a href="tel:+919999999999">+91-9999-999-999</a> (24/7)</p>
-                            <p>CIN: U24110UP2020PTC135826</p>
-                            <p>GST No: 09AAUCA1674K1Z1</p>
-                        </div>
-                    </section>
-
-                    <section class="policy-section disclaimer-box">
-                        <p>
-                            <strong>⚠ Disclaimer:</strong> AYACHI-CASINO is a free-to-play entertainment platform. 
-                            No real money is involved. No prizes or winnings are given. This is entertainment only. 
-                            Players must be 18 years or older.
-                        </p>
-                    </section>
                 </div>
             </div>
         </div>

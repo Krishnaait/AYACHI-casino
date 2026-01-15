@@ -182,7 +182,7 @@ include '../includes/header.php';
                             For questions about Community Rules or to report violations:
                         </p>
                         <div class="contact-info">
-                            <p><strong>AYACHI Healthcare Pvt. Ltd.</strong></p>
+                            <p><strong>AYACHI Casino</strong></p>
                             <p>H. NO. 1/104, NEW JIA MAU, NEAR PARAG, ATM</p>
                             <p>LUCKNOW, Uttar Pradesh, 226001</p>
                             <p>Email: <a href="mailto:community@ayachi.com">community@ayachi.com</a></p>

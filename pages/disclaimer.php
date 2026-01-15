@@ -73,7 +73,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>4. No Liability for Game Outcomes</h2>
                         <p>
-                            While all games use fair RNG algorithms, AYACHI Healthcare Pvt. Ltd. is not liable for:
+                            While all games use fair RNG algorithms, AYACHI Casino is not liable for:
                         </p>
                         <ul>
                             <li>Any game outcomes or results</li>
@@ -117,7 +117,7 @@ include '../includes/header.php';
                         <h2>7. Intellectual Property</h2>
                         <p>
                             All content on AYACHI Casino, including but not limited to game designs, graphics, text, and software, 
-                            is the intellectual property of AYACHI Healthcare Pvt. Ltd. Unauthorized reproduction or distribution 
+                            is the intellectual property of AYACHI Casino Unauthorized reproduction or distribution 
                             is prohibited.
                         </p>
                     </section>
@@ -156,7 +156,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>11. Limitation of Liability</h2>
                         <p>
-                            To the maximum extent permitted by law, AYACHI Healthcare Pvt. Ltd. shall not be liable for:
+                            To the maximum extent permitted by law, AYACHI Casino shall not be liable for:
                         </p>
                         <ul>
                             <li>Direct, indirect, or consequential damages</li>
@@ -193,7 +193,7 @@ include '../includes/header.php';
                         <h2>14. Entire Agreement</h2>
                         <p>
                             This disclaimer, along with our Terms & Conditions and Privacy Policy, constitutes the entire agreement 
-                            between you and AYACHI Healthcare Pvt. Ltd. regarding the use of AYACHI Casino.
+                            between you and AYACHI Casino regarding the use of AYACHI Casino.
                         </p>
                     </section>
 
@@ -203,7 +203,7 @@ include '../includes/header.php';
                             If you have questions about this disclaimer, please contact us:
                         </p>
                         <div class="contact-info">
-                            <p><strong>AYACHI Healthcare Pvt. Ltd.</strong></p>
+                            <p><strong>AYACHI Casino</strong></p>
                             <p>H. NO. 1/104, NEW JIA MAU, NEAR PARAG, ATM</p>
                             <p>LUCKNOW, Uttar Pradesh, 226001</p>
                             <p>Email: <a href="mailto:legal@ayachi.com">legal@ayachi.com</a></p>

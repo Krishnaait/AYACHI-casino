@@ -91,7 +91,7 @@ include '../includes/header.php';
                             <div class="contact-info-box">
                                 <h3>Office Address</h3>
                                 <p>
-                                    AYACHI Healthcare Pvt. Ltd.<br>
+                                    AYACHI Casino<br>
                                     H. NO. 1/104, NEW JIA MAU<br>
                                     NEAR PARAG, ATM<br>
                                     LUCKNOW, Uttar Pradesh, 226001<br>

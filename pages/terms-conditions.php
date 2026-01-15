@@ -50,7 +50,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>3. Disclaimer</h2>
                         <p>
-                            The materials on AYACHI Casino's website are provided on an 'as is' basis. AYACHI Healthcare Pvt. Ltd. 
+                            The materials on AYACHI Casino's website are provided on an 'as is' basis. AYACHI Casino 
                             makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, 
                             without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, 
                             or non-infringement of intellectual property or other violation of rights.
@@ -60,7 +60,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>4. Limitations</h2>
                         <p>
-                            In no event shall AYACHI Healthcare Pvt. Ltd. or its suppliers be liable for any damages (including, 
+                            In no event shall AYACHI Casino or its suppliers be liable for any damages (including, 
                             without limitation, damages for loss of data or profit, or due to business interruption) arising out of 
                             the use or inability to use the materials on AYACHI Casino's website, even if AYACHI or an authorized 
                             representative has been notified orally or in writing of the possibility of such damage.
@@ -71,8 +71,8 @@ include '../includes/header.php';
                         <h2>5. Accuracy of Materials</h2>
                         <p>
                             The materials appearing on AYACHI Casino's website could include technical, typographical, or 
-                            photographic errors. AYACHI Healthcare Pvt. Ltd. does not warrant that any of the materials on its 
-                            website are accurate, complete, or current. AYACHI Healthcare Pvt. Ltd. may make changes to the 
+                            photographic errors. AYACHI Casino does not warrant that any of the materials on its 
+                            website are accurate, complete, or current. AYACHI Casino may make changes to the 
                             materials contained on its website at any time without notice.
                         </p>
                     </section>
@@ -90,7 +90,7 @@ include '../includes/header.php';
                         <h2>7. Limitations on Liability</h2>
                         <p>
                             The information on AYACHI Casino's website is provided without any representations or warranties, express 
-                            or implied. AYACHI Healthcare Pvt. Ltd. makes no representations or warranties in relation to this website 
+                            or implied. AYACHI Casino makes no representations or warranties in relation to this website 
                             or the information and materials provided.
                         </p>
                     </section>
@@ -140,7 +140,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>12. Termination of Service</h2>
                         <p>
-                            AYACHI Healthcare Pvt. Ltd. reserves the right to terminate or suspend your access to our Service at any 
+                            AYACHI Casino reserves the right to terminate or suspend your access to our Service at any 
                             time, without notice, for conduct that we believe violates these Terms and Conditions or is otherwise 
                             harmful to the Service or other users.
                         </p>
@@ -149,7 +149,7 @@ include '../includes/header.php';
                     <section class="policy-section">
                         <h2>13. Modifications to Terms</h2>
                         <p>
-                            AYACHI Healthcare Pvt. Ltd. may revise these Terms and Conditions for its website at any time without 
+                            AYACHI Casino may revise these Terms and Conditions for its website at any time without 
                             notice. By using this website, you are agreeing to be bound by the then current version of these Terms 
                             and Conditions.
                         </p>
@@ -170,7 +170,7 @@ include '../includes/header.php';
                             If you have any questions about these Terms and Conditions, please contact us at:
                         </p>
                         <div class="contact-info">
-                            <p><strong>AYACHI Healthcare Pvt. Ltd.</strong></p>
+                            <p><strong>AYACHI Casino</strong></p>
                             <p>H. NO. 1/104, NEW JIA MAU, NEAR PARAG, ATM</p>
                             <p>LUCKNOW, Uttar Pradesh, 226001</p>
                             <p>Email: <a href="mailto:support@ayachi.com">support@ayachi.com</a></p>

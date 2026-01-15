@@ -80,7 +80,7 @@ include '../includes/header.php';
                         <div class="company-info-grid">
                             <div class="info-card">
                                 <h4>🏢 Legal Details</h4>
-                                <p><strong>Company:</strong> AYACHI Healthcare Pvt. Ltd.</p>
+                                <p><strong>Company:</strong> AYACHI Casino</p>
                                 <p><strong>CIN:</strong> U24110UP2020PTC135826</p>
                                 <p><strong>GST No:</strong> 09AAUCA1674K1Z1</p>
                                 <p><strong>PAN No:</strong> AAUCA1674K</p>
@@ -244,7 +244,7 @@ include '../includes/header.php';
                             We'd love to hear from you. Contact us anytime:
                         </p>
                         <div class="contact-info">
-                            <p><strong>AYACHI Healthcare Pvt. Ltd.</strong></p>
+                            <p><strong>AYACHI Casino</strong></p>
                             <p>H. NO. 1/104, NEW JIA MAU, NEAR PARAG, ATM</p>
                             <p>LUCKNOW, Uttar Pradesh, 226001</p>
                             <p>Email: <a href="mailto:info@ayachi.com">info@ayachi.com</a></p>

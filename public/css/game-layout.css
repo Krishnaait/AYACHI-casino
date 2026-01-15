@@ -707,9 +707,73 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
+  .game-hero-section {
+    padding: 1.5rem 0.8rem;
+    border-bottom: 2px solid rgba(212, 175, 55, 0.2);
+  }
+
   .game-title-main {
     font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .game-tagline {
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .game-description {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .game-image-history-section {
+    margin: 0.8rem auto;
+    padding: 0.8rem;
+  }
+
+  .history-title {
+    font-size: 1.2rem;
+    padding-bottom: 0.8rem;
+  }
+
+  .game-stats-bar {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+  }
+
+  .betting-options {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .btn {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .game-disclaimer-section {
+    margin: 1rem 0.8rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .game-hero-section {
+    padding: 1rem 0.6rem;
+  }
+
+  .game-title-main {
+    font-size: 1.2rem;
+  }
+
+  .game-tagline {
+    font-size: 0.85rem;
+  }
+
+  .game-description {
+    font-size: 0.8rem;
   }
 
   .game-rating {
@@ -717,12 +781,23 @@
     gap: 0.5rem;
   }
 
-  .game-description {
+  .game-stats-bar {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.4rem;
+  }
+
+  .stat-value {
     font-size: 0.9rem;
   }
 
   .betting-options {
     grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+
+  .btn {
+    padding: 0.5rem 0.6rem;
+    font-size: 0.75rem;
   }
 
   .info-item {
@@ -734,5 +809,14 @@
     width: 35px;
     height: 35px;
     font-size: 0.9rem;
+  }
+
+  .game-disclaimer-section {
+    margin: 0.8rem 0.6rem;
+    padding: 0.6rem;
+  }
+
+  .disclaimer-content {
+    font-size: 0.8rem;
   }
 }

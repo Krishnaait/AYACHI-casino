@@ -151,7 +151,7 @@ include '../includes/header.php';
                         <div class="faq-item">
                             <h3>What games are available?</h3>
                             <p>
-                                We offer four premium games: Slots, Roulette, Blackjack, and Poker. Each game features realistic 
+                                We offer four premium games: Slots, Blackjack, and Poker. Each game features realistic 
                                 casino mechanics and fair gameplay.
                             </p>
                         </div>

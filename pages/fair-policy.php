@@ -62,12 +62,7 @@ include '../includes/header.php';
                             <li>Cherry: 15x bet</li>
                         </ul>
 
-                        <h3>Roulette</h3>
-                        <p>
-                            Our European roulette wheel uses RNG to determine the winning number. Each number (0-36) has an equal 
-                            probability of being selected. Payout odds are:
-                        </p>
-                        <ul>
+                                                <ul>
                             <li>Straight Number Bet: 36:1 payout</li>
                             <li>Color Bet (Red/Black): 2:1 payout</li>
                             <li>Even/Odd Bet: 2:1 payout</li>
@@ -98,9 +93,7 @@ include '../includes/header.php';
                             All games at AYACHI Casino have transparent house edges and payout percentages:
                         </p>
                         <ul>
-                            <li><strong>Slots:</strong> 95-97% RTP (Return to Player)</li>
-                            <li><strong>Roulette:</strong> 97.3% RTP (European Roulette)</li>
-                            <li><strong>Blackjack:</strong> 99% RTP (with basic strategy)</li>
+                            <li><strong>Slots:</strong> 95-97% RTP (Return to Player)</li>                            <li><strong>Blackjack:</strong> 99% RTP (with basic strategy)</li>
                             <li><strong>Poker:</strong> 98% RTP (fair hand rankings)</li>
                         </ul>
                     </section>

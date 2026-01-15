@@ -507,25 +507,6 @@ include 'includes/header.php';
                 </div>
             </div>
 
-            <!-- Roulette Game -->
-            <div class="game-card">
-                <div class="game-image">
-                    <img src="/public/images/game_roulette.webp" alt="Roulette Game">
-                    <div class="game-overlay">
-                        <a href="/games/roulette.php" class="play-button">PLAY NOW</a>
-                    </div>
-                </div>
-                <div class="game-info">
-                    <h3 style="margin: 0; margin-bottom: 10px;">🎡 ROULETTE</h3>
-                    <p>Roulette is the most famous of the casino games. Predict where the ball will land on the spinning wheel and earn credits. Experience the elegance and excitement of this classic casino game with multiple betting options.</p>
-                    <div class="game-specs">
-                        <span>Multiple Bets</span>
-                        <span>Real Wheel</span>
-                        <span>Fast Paced</span>
-                    </div>
-                </div>
-            </div>
-
             <!-- Blackjack Game -->
             <div class="game-card">
                 <div class="game-image">

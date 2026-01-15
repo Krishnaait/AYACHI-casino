@@ -29,7 +29,7 @@ include '../includes/header.php';
                         <div class="blog-excerpt">
                             <p>
                                 One of the most important things to understand when playing casino games is how odds and probabilities work. 
-                                Whether you're playing slots, roulette, blackjack, or poker, understanding the mathematical foundation of each 
+                                Whether you're playing slots, blackjack, or poker, understanding the mathematical foundation of each 
                                 game can enhance your appreciation and enjoyment.
                             </p>
                             <h3>What are Odds?</h3>
@@ -43,9 +43,7 @@ include '../includes/header.php';
                                 and ensures the casino makes a profit over time. At AYACHI Casino, all games have transparent house edges:
                             </p>
                             <ul>
-                                <li>Slots: 3-5% house edge (95-97% RTP)</li>
-                                <li>Roulette: 2.7% house edge (97.3% RTP)</li>
-                                <li>Blackjack: 1% house edge (99% RTP with basic strategy)</li>
+                                <li>Slots: 3-5% house edge (95-97% RTP)</li>                                <li>Blackjack: 1% house edge (99% RTP with basic strategy)</li>
                                 <li>Poker: 2% house edge (98% RTP)</li>
                             </ul>
                             <p>
@@ -139,11 +137,7 @@ include '../includes/header.php';
                                 The first slot machine was invented in 1895 by Charles Fey in San Francisco. It was called the "Liberty Bell" 
                                 and had three reels with five symbols. Modern slots have evolved significantly but maintain the same basic concept.
                             </p>
-                            <h3>Roulette</h3>
-                            <p>
-                                Roulette originated in 18th-century France and is believed to be based on an Italian game called "Biribi." 
-                                The modern roulette wheel was developed in the 1700s and has remained largely unchanged.
-                            </p>
+                                                        </p>
                             <h3>Blackjack</h3>
                             <p>
                                 Blackjack evolved from a French game called "Vingt-et-Un" (Twenty-One) in the 1600s. It became popular in 
@@ -169,7 +163,7 @@ include '../includes/header.php';
                             </p>
                             <h3>What We Offer</h3>
                             <p>
-                                AYACHI Casino provides four premium games - Slots, Roulette, Blackjack, and Poker - all completely free to play. 
+                                AYACHI Casino provides four premium games - Slots, Blackjack, and Poker - all completely free to play. 
                                 No real money is involved, no registration is required, and no prizes are given. It's pure entertainment.
                             </p>
                             <h3>Our Commitment</h3>

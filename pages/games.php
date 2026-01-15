@@ -49,29 +49,6 @@ include '../includes/header.php';
                     </div>
                 </div>
 
-                <!-- ROULETTE GAME CARD -->
-                <div class="game-card-large">
-                    <div class="game-card-image">
-                        <img src="/public/images/game_roulette.webp" alt="Roulette">
-                        <div class="game-card-overlay">
-                            <a href="/games/roulette.php" class="play-game-btn">PLAY NOW</a>
-                        </div>
-                    </div>
-                    <div class="game-card-content">
-                        <h3 class="game-card-title">🎡 ROULETTE</h3>
-                        <p class="game-card-tagline">Experience the Thrill of Classic Roulette</p>
-                        <p class="game-card-description">
-                            Roulette is the most famous of the casino games. Predict where the ball will land on the spinning wheel 
-                            and earn credits. Experience the elegance and excitement of this classic casino game.
-                        </p>
-                        <div class="game-card-features">
-                            <span class="feature-tag">Multiple Bets</span>
-                            <span class="feature-tag">Real Wheel</span>
-                            <span class="feature-tag">Fast Paced</span>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- BLACKJACK GAME CARD -->
                 <div class="game-card-large">
                     <div class="game-card-image">

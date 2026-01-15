@@ -149,9 +149,7 @@ include '../includes/header.php';
                             </div>
                             <div class="game-showcase-card">
                                 <div class="game-icon">🎡</div>
-                                <h4>Roulette</h4>
-                                <p>European roulette with 37 numbers, multiple betting options, and realistic wheel animations</p>
-                            </div>
+                                                            </div>
                             <div class="game-showcase-card">
                                 <div class="game-icon">🎴</div>
                                 <h4>Blackjack</h4>

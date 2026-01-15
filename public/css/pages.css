@@ -127,7 +127,9 @@
     border: 2px solid #d4af37;
     border-radius: 8px;
     padding: 2rem;
-    margin: 2rem 0;
+    margin: 2rem auto;
+    text-align: center;
+    max-width: 900px;
 }
 
 .disclaimer-box p {

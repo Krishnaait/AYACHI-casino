@@ -44,10 +44,10 @@ include '../includes/header.php';
                             </div>
                             <div class="about-intro-visual">
                                 <div class="visual-card professional-card">
-                                    <div class="card-icon">🎰</div>
-                                    <div class="card-text">
-                                        <strong>Professional Games</strong><br>
-                                        Casino-grade gaming experience
+                                    <img src="/public/images/professional_games.webp" alt="Professional Casino Games" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                                    <div class="card-text" style="text-align: center;">
+                                        <strong style="font-size: 1.2rem; color: #d4af37;">Professional Games</strong><br>
+                                        <span style="color: #b0b0b0;">Casino-grade gaming experience</span>
                                     </div>
                                 </div>
                             </div>

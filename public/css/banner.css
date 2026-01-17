@@ -249,20 +249,22 @@
 }
 
 .banner-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #ffffff;
     margin-bottom: 20px;
-    font-weight: 300;
+    font-weight: 700;
     letter-spacing: 1px;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
 }
 
 .banner-description {
-    font-size: 1rem;
+    font-size: 1.05rem;
     color: #ffffff;
     margin-bottom: 25px;
     line-height: 1.8;
     max-width: 500px;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+    font-weight: 600;
 }
 
 .banner-features {
@@ -273,15 +275,16 @@
 }
 
 .feature-badge {
-    background: rgba(212, 175, 55, 0.2);
-    border: 1px solid #d4af37;
-    color: #d4af37;
-    padding: 8px 16px;
+    background: rgba(212, 175, 55, 0.3);
+    border: 2px solid #d4af37;
+    color: #ffffff;
+    padding: 10px 18px;
     border-radius: 20px;
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 700;
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .feature-badge:hover {

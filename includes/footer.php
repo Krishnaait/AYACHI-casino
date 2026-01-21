@@ -52,6 +52,9 @@
                 <div class="footer-disclaimer">
                     <p>⚠️ <strong>Disclaimer:</strong> This is a free-to-play gaming platform for entertainment purposes only. No real money is involved. No prizes or winnings are given to players. Players must be 18 years or older.</p>
                 </div>
+                <div class="footer-legal-notice">
+                    <p><strong>Legal Notice:</strong> AYACHI-CASINO is completely owned and operated by AYACHI Healthcare Pvt. Ltd. This business does not affiliate with, endorse, or have any association with any other brand, organization, or entity. All rights reserved.</p>
+                </div>
                 <div class="footer-copyright">
                     <p>&copy; 2026 AYACHI Healthcare Pvt. Ltd. All rights reserved. | Play for Fun | No Real Money | Pure Entertainment</p>
                 </div>

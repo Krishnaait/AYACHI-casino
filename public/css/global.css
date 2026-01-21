@@ -291,6 +291,24 @@ body {
     color: var(--gold);
 }
 
+.footer-legal-notice {
+    background: rgba(212, 175, 55, 0.08);
+    border-left: 3px solid var(--gold);
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.footer-legal-notice p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--text-light);
+}
+
+.footer-legal-notice strong {
+    color: var(--gold);
+}
+
 .footer-copyright {
     text-align: center;
     color: rgba(224, 224, 224, 0.6);

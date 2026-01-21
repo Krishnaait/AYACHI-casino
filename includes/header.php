@@ -21,9 +21,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- 18+ Age Badge -->
-    <div class="age-badge">18+</div>
-
     <!-- Global Header -->
     <header class="global-header">
         <div class="header-container">
